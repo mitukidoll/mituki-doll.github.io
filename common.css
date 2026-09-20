@@ -452,11 +452,6 @@ nav a:hover::after {
 ========================= */
 
 .dark-section {
-    width: 100%;
-    max-width: none;
-
-    margin: 0;
-
     padding:
         120px
         max(20px, calc((100% - 1100px) / 2));
@@ -555,7 +550,7 @@ nav a:hover::after {
 .hobby-item p {
     margin: 0 0 12px;
 
-    color: var(--color-gray);
+    color: var(--color-white);
 }
 
 
@@ -570,7 +565,7 @@ nav a:hover::after {
     align-items: center;
     gap: 8px;
 
-    color: var(--color-gray);
+    color: var(--color-white);
 
     font-size: 0.9rem;
     font-weight: 700;
@@ -620,9 +615,6 @@ a {
         120px
         max(20px, calc((100% - 1100px) / 2))
         150px;
-
-    background: var(--color-text);
-    color: var(--color-white);
 }
 
 .links {
@@ -731,16 +723,16 @@ footer {
             Section Theme
     ========================= */
 
-    .section-dark {
+    .dark-section {
         background: var(--color-text);
         color: var(--color-white);
     }
 
-    .section-dark .section-title span {
+    .dark-section .section-title span {
         color: var(--color-primary);
     }
 
-    .section-dark .section-title h2 {
+    .dark-section .section-title h2 {
         color: var(--color-white);
     }
 
