@@ -13,7 +13,7 @@ html {
 body {
     margin: 0;
 
-    background: #f7f7f5;
+    background: #f8f8f8;
     color: #181818;
 
     font-family:
@@ -36,8 +36,8 @@ body {
     top: 0;
     z-index: 100;
 
-    background: rgba(247, 247, 245, 0.9);
-    border-bottom: 1px solid #ddd;
+    background: rgba(248, 248, 248, 0.92);
+    border-bottom: 1px solid #e5e5e5;
 
     backdrop-filter: blur(10px);
 }
@@ -54,13 +54,17 @@ body {
 }
 
 .logo {
-    color: #111;
+    color: #181818;
 
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 800;
 
     letter-spacing: 0.08em;
     text-decoration: none;
+}
+
+.logo:hover {
+    color: #FC676B;
 }
 
 nav {
@@ -69,17 +73,40 @@ nav {
 }
 
 nav a {
-    color: #555;
+    position: relative;
+
+    color: #666;
 
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 700;
 
     letter-spacing: 0.12em;
     text-decoration: none;
+
+    transition: color 0.2s;
+}
+
+nav a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+
+    width: 0;
+    height: 2px;
+
+    background: #FC676B;
+
+    transition: width 0.2s;
 }
 
 nav a:hover {
-    color: #000;
+    color: #D50015;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 
@@ -94,6 +121,14 @@ nav a:hover {
     align-items: center;
 
     border-bottom: 1px solid #ddd;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8f8f8 0%,
+            #f8f8f8 70%,
+            #fff0f0 100%
+        );
 }
 
 .hero-inner {
@@ -104,10 +139,10 @@ nav a:hover {
 .hero-label {
     margin: 0 0 25px;
 
-    color: #777;
+    color: #D50015;
 
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 800;
 
     letter-spacing: 0.2em;
 }
@@ -121,7 +156,7 @@ nav a:hover {
 }
 
 .hero h1 span {
-    color: #777;
+    color: #FC676B;
 }
 
 .hero-description {
@@ -137,21 +172,25 @@ nav a:hover {
 
     padding: 13px 22px;
 
-    border: 1px solid #222;
+    border: 1px solid #181818;
 
-    color: #222;
+    color: #181818;
 
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 800;
 
     letter-spacing: 0.1em;
     text-decoration: none;
 
-    transition: 0.2s;
+    transition:
+        background 0.2s,
+        color 0.2s,
+        border-color 0.2s;
 }
 
 .more-button:hover {
-    background: #222;
+    background: #FC676B;
+    border-color: #FC676B;
     color: white;
 }
 
@@ -176,10 +215,10 @@ nav a:hover {
 }
 
 .section-title span {
-    color: #999;
+    color: #FC676B;
 
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .section-title h2 {
@@ -196,12 +235,12 @@ nav a:hover {
 
 .about-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
     gap: 80px;
 }
 
 .about-name {
-    border-top: 2px solid #222;
+    border-top: 2px solid #FC676B;
     padding-top: 20px;
 }
 
@@ -211,7 +250,7 @@ nav a:hover {
     color: #999;
 
     font-size: 0.7rem;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0.15em;
 }
 
@@ -234,7 +273,7 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-```css
+
 /* =========================
    Skills
 ========================= */
@@ -244,26 +283,34 @@ nav a:hover {
     max-width: none;
 
     margin: 0;
-    padding: 120px max(20px, calc((100% - 1100px) / 2));
+
+    padding:
+        120px
+        max(20px, calc((100% - 1100px) / 2));
 
     background: #181818;
     color: white;
 }
 
 .dark-section .section-title span {
-    color: #777;
+    color: #FC676B;
+}
+
+.dark-section .section-title h2 {
+    color: white;
 }
 
 .skill-grid {
     display: grid;
 
-    /* 各列が必要以上に広がらないようにする */
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, 1fr);
+
+    width: 100%;
 
     border-top: 1px solid #444;
     border-left: 1px solid #444;
-
-    width: 100%;
 }
 
 .skill {
@@ -276,12 +323,22 @@ nav a:hover {
     border-bottom: 1px solid #444;
 
     overflow-wrap: break-word;
+
+    transition:
+        background 0.2s,
+        border-color 0.2s;
+}
+
+.skill:hover {
+    background: #222;
+    border-color: #FC676B;
 }
 
 .skill span {
-    color: #777;
+    color: #FC676B;
 
     font-size: 0.75rem;
+    font-weight: 700;
 }
 
 .skill h3 {
@@ -298,27 +355,6 @@ nav a:hover {
 
 
 /* =========================
-   Mobile
-========================= */
-
-@media (max-width: 700px) {
-
-    .dark-section {
-        padding: 80px 20px;
-    }
-
-    .skill-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .skill {
-        min-height: auto;
-    }
-}
-```
-
-
-/* =========================
    Hobby
 ========================= */
 
@@ -328,7 +364,7 @@ nav a:hover {
 
 .hobby-item {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 100px minmax(0, 1fr);
     gap: 30px;
 
     padding: 35px 0;
@@ -337,10 +373,10 @@ nav a:hover {
 }
 
 .hobby-number {
-    color: #999;
+    color: #FC676B;
 
     font-size: 0.8rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .hobby-item h3 {
@@ -350,14 +386,61 @@ nav a:hover {
 }
 
 .hobby-item p {
-    margin: 0;
+    margin: 0 0 12px;
 
     color: #666;
 }
 
 
 /* =========================
-   Links
+   Hobby / Work Links
+========================= */
+
+.hobby-item a {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #D50015;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.hobby-item a::after {
+    content: "↗";
+
+    color: #FC676B;
+
+    font-size: 0.9rem;
+
+    transition: transform 0.2s;
+}
+
+.hobby-item a:hover {
+    color: #FC676B;
+}
+
+.hobby-item a:hover::after {
+    transform: translate(3px, -3px);
+}
+
+
+/* =========================
+   General Links
+========================= */
+
+a {
+    transition: color 0.2s;
+}
+
+
+/* =========================
+   Links Section
 ========================= */
 
 .links-section {
@@ -365,7 +448,7 @@ nav a:hover {
 }
 
 .links {
-    border-top: 2px solid #222;
+    border-top: 2px solid #181818;
 }
 
 .link {
@@ -376,18 +459,36 @@ nav a:hover {
 
     border-bottom: 1px solid #ccc;
 
-    color: #222;
+    color: #181818;
 
     font-size: 1.2rem;
+    font-weight: 600;
+
     text-decoration: none;
 
-    transition: 0.2s;
+    transition:
+        padding 0.2s,
+        background 0.2s,
+        color 0.2s;
 }
 
 .link:hover {
     padding-left: 20px;
     padding-right: 20px;
-    background: #eee;
+
+    background: #fff0f0;
+
+    color: #D50015;
+}
+
+.link span:last-child {
+    color: #FC676B;
+
+    transition: transform 0.2s;
+}
+
+.link:hover span:last-child {
+    transform: translate(3px, -3px);
 }
 
 
@@ -404,6 +505,7 @@ footer {
 
     font-size: 0.75rem;
     text-align: center;
+
     letter-spacing: 0.1em;
 }
 
@@ -426,6 +528,7 @@ footer {
         font-size: 0.65rem;
     }
 
+
     .hero {
         min-height: 550px;
     }
@@ -434,13 +537,20 @@ footer {
         font-size: 4rem;
     }
 
+
     .section {
         padding: 80px 0;
     }
 
+
     .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+
+    .dark-section {
+        padding: 80px 20px;
     }
 
     .skill-grid {
@@ -451,9 +561,15 @@ footer {
         min-height: auto;
     }
 
+
     .hobby-item {
-        grid-template-columns: 50px 1fr;
+        grid-template-columns: 50px minmax(0, 1fr);
         gap: 15px;
+    }
+
+
+    .links-section {
+        padding-bottom: 100px;
     }
 
 }
