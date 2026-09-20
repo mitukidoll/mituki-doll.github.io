@@ -1,7 +1,7 @@
 const heroTitle = document.getElementById("heroTitle");
 
 const targetText = "Okami";
-const glitchChars = "!@#$%&?ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789░▒▓█";
+const glitchChars = "!@#$%&?ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 setTimeout(() => {
     // RGBグリッチ開始
