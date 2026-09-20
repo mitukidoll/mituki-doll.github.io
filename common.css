@@ -115,6 +115,7 @@ nav a:hover::after {
 #heroTitle {
     position: relative;
     display: inline-block;
+    white-space: nowrap;
 }
 
 /* RGBグリッチ */
