@@ -439,7 +439,7 @@ nav a:hover::after {
 
 .hobby-item {
     display: grid;
-    grid-template-columns: 100px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 30px;
 
     padding: 35px 0;
