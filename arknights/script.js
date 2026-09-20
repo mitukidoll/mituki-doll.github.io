@@ -22,25 +22,29 @@ document
     .getElementById("resetButton")
     .addEventListener("click", nextGame);
 
-document
-    .getElementById("helpButton")
-    .addEventListener("click", () => {
-        alert(
-            "オペレーターの名前を入力して、Enterキーまたは「guess」ボタンを押してください。\n" +
-            "正解を知りたい場合は「ギブアップ」ボタンを押してください。\n\n"+
-            "一部オペレーターの扱いについて：\n"+
-            "・情報は白wikiの内容を基にしています。\n"+
-            "・統合戦略のみで登場するオペレータなどを含みます。n"+
-            "・種族が複数あるオペレーターは、完全一致でないと正解扱いになりません。\n"+
-            "例）種族が「コータス/キメラ」のオペレーターと、「コータス」のオペレーターを比較すると、不一致扱いになります。\n"+
-            "・「製造元」は「出身地」として扱います。\n"+
-            "・一部オペレーターの種族はプロファイルにないため、空白になります。\n"+
-            "・陣営として扱うのは、各オペレーター個別ページで記載のある陣営および副陣営のみです。親組織の陣営は記載のない限り考慮しません。\n"+
-            "例）陣営が「行動予備隊A1」のオペレーターは「ロドスアイランド」陣営として扱いません。\n"+
-            "・陣営と副陣営に序列、区別はつけていません。\n"+
-            "・職分が不一致で職業が一致している場合、部分一致扱いになります。\n"
-        );
-    });
+const helpDialog = document.getElementById("helpDialog");
+const helpButton = document.getElementById("helpButton");
+const closeHelpButton = document.getElementById("closeHelpButton");
+const closeHelpButtonBottom = document.getElementById("closeHelpButtonBottom");
+
+helpButton.addEventListener("click", () => {
+    helpDialog.showModal();
+});
+
+closeHelpButton.addEventListener("click", () => {
+    helpDialog.close();
+});
+
+closeHelpButtonBottom.addEventListener("click", () => {
+    helpDialog.close();
+});
+
+// ダイアログの外側をクリックしたら閉じる
+helpDialog.addEventListener("click", (event) => {
+    if (event.target === helpDialog) {
+        helpDialog.close();
+    }
+});
 
 input.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
