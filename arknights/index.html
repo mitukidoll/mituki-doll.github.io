@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アクナイゲッサー</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>アクナイゲッサー</h1>
+    </header>
+
+    <main>
+
+        <section id="statusArea">
+            <span id="problemNumber">オペレーター登録数：412</span>
+            <p>図鑑はこちら：<a href="study.html">アクナイ図鑑</a></p>
+        </section>
+            <section id="guessArea">
+            <button id="giveUpButton" type="button">
+                ギブアップ
+            </button>
+
+            <button id="resetButton" type="button">
+                リセット
+            </button>
+
+            <button id="helpButton" type="button">
+                遊び方
+            </button>
+            <input
+                type="text"
+                id="operatorInput"
+                list="operatorList"
+                placeholder="オペレーター名を入力"
+                autocomplete="off">
+
+            <datalist id="operatorList"></datalist>
+
+            <button id="guessButton" type="button">
+                Guess
+            </button>
+
+        </section>
+
+        <section id="historyArea">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>名前</th>
+                        <th>レアリティ</th>
+                        <th>種族</th>
+                        <th>出身地</th>
+                        <th>職分</th>
+                        <th>職業</th>
+                        <th>コスト</th>
+                        <th>陣営副陣営</th>
+                    </tr>
+                </thead>
+
+                <tbody id="historyTable">
+                    <!-- JavaScriptで履歴を追加 -->
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="clearArea" hidden>
+
+            <h2>正解！</h2>
+
+            <p>
+                正解は
+                <strong id="answerName"></strong>
+                でした！
+            </p>
+
+            <button id="nextButton" type="button">
+                次の問題へ →
+            </button>
+
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2026 アクナイゲッサー</small>
+    </footer>
+
+</body>
+
+</html>

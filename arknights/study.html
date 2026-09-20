@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>アクナイ図鑑</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>アクナイ図鑑</h1>
+    <p>一覧・予習用</p>
+</header>
+
+<main>
+
+<button onclick="location.href='index.html'">戻る</button>
+
+<section id="filters" class="filters-panel" aria-label="絞り込みメニュー">
+    <div class="filters-section">
+        <div class="section-title">表示方法</div>
+        <div class="filter-grid filter-grid-compact">
+            <div class="filter-group">
+                <label for="sortKey">並び替え</label>
+                <select id="sortKey">
+                    <option value="name">名前順</option>
+                    <option value="rarity" selected>レアリティ順</option>
+                    <option value="cost">コスト順</option>
+                    <option value="country">出身地順</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="sortOrder">順序</label>
+                <select id="sortOrder">
+                    <option value="asc">昇順</option>
+                    <option value="desc" selected>降順</option>
+                </select>
+            </div>
+
+            <div class="filter-group filter-group-action">
+                <label for="resetFilters">一括設定</label>
+                <button type="button" id="resetFilters" class="reset-button">条件をリセット</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="filters-section">
+        <div class="section-title">絞り込み</div>
+        <div class="filter-grid">
+            <div class="filter-group">
+                <label for="filterRarity">レアリティ</label>
+                <select id="filterRarity">
+                    <option value="">指定なし</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filterRace">種族</label>
+                <select id="filterRace">
+                    <option value="">指定なし</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filterCountry">出身地</label>
+                <select id="filterCountry">
+                    <option value="">指定なし</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filterClass">職業</label>
+                <select id="filterClass">
+                    <option value="">指定なし</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filterJob">職分</label>
+                <select id="filterJob">
+                    <option value="">指定なし</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filterFaction">陣営</label>
+                <select id="filterFaction">
+                    <option value="">指定なし</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="table-panel">
+
+<table>
+
+<thead>
+
+<tr>
+    <th>名前</th>
+    <th>レア</th>
+    <th>種族</th>
+    <th>出身地</th>
+    <th>職業</th>
+    <th>職分</th>
+    <th>コスト</th>
+    <th>陣営</th>
+</tr>
+
+</thead>
+
+<tbody id="operatorTable"></tbody>
+
+</table>
+
+</section>
+
+</main>
+
+<script src="study.js"></script>
+
+</body>
+
+</html>

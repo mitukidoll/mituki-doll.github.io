@@ -1,0 +1,345 @@
+/* ===== 共通 ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b1b1b;
+    color: #f5f5f5;
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+
+main {
+    width: min(1120px, 95%);
+    margin: 40px auto;
+}
+
+.correct {
+    background: #3ba55d;
+    color: white;
+    font-weight: bold;
+}
+
+.partial {
+    background: #d8a100;
+    color: white;
+    font-weight: bold;
+}
+
+.wrong {
+    background: #af4040;
+    color: white;
+}
+
+button:disabled {
+    background: #666;
+    color: #bbb;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+input:disabled {
+    background: #333;
+    color: #999;
+    cursor: not-allowed;
+}
+
+/* ===== ヘッダー ===== */
+
+header {
+    background: #111;
+    border-bottom: 2px solid #444;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* ===== 問題番号 ===== */
+
+#statusArea {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+/* ===== 入力欄 ===== */
+
+#guessArea {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+#operatorInput {
+    width: 320px;
+    padding: 12px 16px;
+    font-size: 1rem;
+
+    border: 1px solid #555;
+    border-radius: 6px;
+
+    background: #2b2b2b;
+    color: white;
+}
+
+#operatorInput:focus {
+    outline: none;
+    border-color: #ffb000;
+}
+
+button {
+    cursor: pointer;
+
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #ffb000;
+    color: black;
+
+    font-weight: bold;
+    transition: .2s;
+}
+
+button:hover {
+    background: #ffc63a;
+}
+
+/* ===== 履歴 ===== */
+td {
+    white-space: nowrap;
+}
+
+#historyArea {
+
+    max-height: 600px;
+    overflow-y: auto;
+
+    border: 1px solid #444;
+    border-radius: 8px;
+
+    background: #252525;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+
+    position: sticky;
+    top: 0;
+
+    background: #333;
+}
+
+th,
+td {
+
+    padding: 14px;
+    text-align: center;
+
+    border-bottom: 1px solid #444;
+}
+
+tbody tr:hover {
+    background: #333;
+}
+
+
+/* ===== 正解画面 ===== */
+
+#clearArea {
+
+    margin-top: 40px;
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    background: #27312b;
+    border: 2px solid #4caf50;
+}
+
+#clearArea h2 {
+    color: #7CFC8A;
+    margin-bottom: 15px;
+}
+
+#answerName {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+/* ===== フッター ===== */
+
+footer {
+
+    margin: 50px 0 20px;
+
+    text-align: center;
+    color: #888;
+}
+
+/* ===== 予習画面 ===== */
+
+.filters-header h2 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+    color: #f7d48b;
+}
+
+.filters-header p {
+    font-size: 0.95rem;
+    color: #bdbdbd;
+}
+
+.filters-section {
+    padding: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.section-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #ffb000;
+    margin-bottom: 12px;
+}
+
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.filter-grid-compact {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 12px;
+    border: 1px solid #4b4b4b;
+    border-radius: 12px;
+    background: #2a2a2a;
+}
+
+.filter-group label {
+    font-size: 0.78rem;
+    color: #d3d3d3;
+    font-weight: 600;
+}
+
+.filter-group-action {
+    justify-content: flex-end;
+}
+
+.reset-button {
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #ffb000;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #5a3b00, #3a2a00);
+    color: #fff4d6;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.reset-button:hover {
+    background: linear-gradient(135deg, #6c4600, #4b3300);
+}
+
+#filters input,
+#filters select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    background: #1f1f1f;
+    color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+#filters input::placeholder {
+    color: #999;
+}
+
+#filters input:focus,
+#filters select:focus {
+    outline: none;
+    border-color: #ffb000;
+    box-shadow: 0 0 0 2px rgba(255, 176, 0, 0.2);
+}
+
+.table-panel {
+    width: 100%;
+    overflow-x: auto;
+}
+
+@media (max-width: 900px) {
+    .filter-grid,
+    .filter-grid-compact {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    #filters {
+        padding: 16px;
+    }
+
+    .filters-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .filter-grid,
+    .filter-grid-compact {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== スマホ ===== */
+
+@media (max-width: 700px) {
+    tr{
+        font-size: 0.5em;
+    }
+
+    #guessArea {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #operatorInput {
+        width: 100%;
+    }
+
+    table {
+        font-size: .9rem;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+}
