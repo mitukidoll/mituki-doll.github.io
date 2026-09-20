@@ -149,7 +149,7 @@ nav a:hover::after {
 
     color: #D50015;
 
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 800;
 
     letter-spacing: 0.2em;
@@ -536,7 +536,7 @@ a {
 
     color: #181818;
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 
     text-decoration: none;
