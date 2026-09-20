@@ -503,7 +503,7 @@ nav a:hover::after {
 }
 
 .skill span {
-    color: var(--color-white);
+    color: var(--color-gray);
 
     font-size: 0.75rem;
     font-weight: 700;
