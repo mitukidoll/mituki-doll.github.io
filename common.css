@@ -1,4 +1,23 @@
 /* =========================
+   Colors
+========================= */
+:root {
+    --color-bg: #f8f8f8;
+    --color-text: #181818;
+    --color-white: #ffffff;
+
+    --color-primary: #FC676B;
+    --color-primary-dark: #D50015;
+    --color-primary-light: #fff0f0;
+
+    --color-gray: #666;
+    --color-gray-light: #999;
+
+    --color-border: #ddd;
+    --color-border-dark: #444;
+}
+
+/* =========================
    Base
 ========================= */
 
@@ -12,59 +31,49 @@ html {
 
 body {
     margin: 0;
-
-    background: #f8f8f8;
-    color: #181818;
-
+    background: var(--color-bg);
+    color: var(--color-text);
     font-family:
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
         "Noto Sans JP",
         sans-serif;
-
     line-height: 1.8;
 }
 
-
 /* =========================
-   Header
+   Header (1. 白)
 ========================= */
 
 .header {
     position: sticky;
     top: 0;
     z-index: 100;
-
     background: rgba(248, 248, 248, 0.92);
-    border-bottom: 1px solid #e5e5e5;
-
+    border-bottom: 1px solid var(--color-border);
     backdrop-filter: blur(10px);
 }
 
 .header-inner {
     width: min(1100px, calc(100% - 40px));
     height: 70px;
-
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    color: #181818;
-
+    color: var(--color-text);
     font-size: 1rem;
     font-weight: 800;
-
     letter-spacing: 0.08em;
     text-decoration: none;
 }
 
 .logo:hover {
-    color: #FC676B;
+    color: var(--color-primary);
 }
 
 nav {
@@ -74,42 +83,35 @@ nav {
 
 nav a {
     position: relative;
-
-    color: #666;
-
+    color: var(--color-gray);
     font-size: 0.75rem;
     font-weight: 700;
-
     letter-spacing: 0.12em;
     text-decoration: none;
-
     transition: color 0.2s;
 }
 
 nav a::after {
     content: "";
-
     position: absolute;
     left: 0;
     bottom: -6px;
-
     width: 0;
     height: 2px;
-
-    background: #FC676B;
-
+    background: var(--color-primary);
     transition: width 0.2s;
 }
 
 nav a:hover {
-    color: #D50015;
+    color: var(--color-primary-dark);
 }
 
 nav a:hover::after {
     width: 100%;
 }
+
 /* =========================
-   Gritch
+   Glitch
 ========================= */
 
 #heroTitle {
@@ -118,14 +120,12 @@ nav a:hover::after {
     white-space: nowrap;
 }
 
-/* RGBグリッチ */
 #heroTitle.glitch {
     animation:
         rgb-shift 0.08s steps(2, end) infinite,
         glitch-jump 0.13s steps(2, end) infinite;
 }
 
-/* 赤・緑の色ズレ */
 @keyframes rgb-shift {
     0% {
         text-shadow:
@@ -133,28 +133,24 @@ nav a:hover::after {
              4px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(0);
     }
-
     25% {
         text-shadow:
              6px 0 rgba(255, 0, 0, 0.9),
             -5px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(-2px);
     }
-
     50% {
         text-shadow:
             -7px 0 rgba(255, 0, 0, 0.9),
              3px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(2px);
     }
-
     75% {
         text-shadow:
              3px 0 rgba(255, 0, 0, 0.9),
             -7px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(-1px);
     }
-
     100% {
         text-shadow:
             -4px 0 rgba(255, 0, 0, 0.9),
@@ -163,62 +159,38 @@ nav a:hover::after {
     }
 }
 
-/* 文字の横方向のズレ */
 @keyframes glitch-jump {
-    0% {
-        clip-path: inset(0 0 0 0);
-    }
-
-    20% {
-        clip-path: inset(15% 0 60% 0);
-    }
-
-    40% {
-        clip-path: inset(70% 0 10% 0);
-    }
-
-    60% {
-        clip-path: inset(30% 0 40% 0);
-    }
-
-    80% {
-        clip-path: inset(80% 0 5% 0);
-    }
-
-    100% {
-        clip-path: inset(0 0 0 0);
-    }
+    0% { clip-path: inset(0 0 0 0); }
+    20% { clip-path: inset(15% 0 60% 0); }
+    40% { clip-path: inset(70% 0 10% 0); }
+    60% { clip-path: inset(30% 0 40% 0); }
+    80% { clip-path: inset(80% 0 5% 0); }
+    100% { clip-path: inset(0 0 0 0); }
 }
 
 /* =========================
-   Hero
+   Hero (1. 白)
 ========================= */
 
 .hero {
     min-height: 650px;
-
     display: flex;
     align-items: center;
-
-    border-bottom: 1px solid #ddd;
-
-    background:
-        linear-gradient(
-            135deg,
-            #f8f8f8 0%,
-            #f8f8f8 70%,
-            #fff0f0 100%
-        );
+    border-bottom: 1px solid var(--color-border);
+    background: linear-gradient(
+        135deg,
+        #f8f8f8 0%,
+        #f8f8f8 70%,
+        #fff0f0 100%
+    );
 }
 
 .hero-inner {
     width: min(1100px, calc(100% - 40px));
     margin: 0 auto;
-
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(350px, 0.8fr);
     gap: 60px;
-
     align-items: center;
 }
 
@@ -228,108 +200,359 @@ nav a:hover::after {
 
 .hero-label {
     margin: 0 0 25px;
-
-    color: #D50015;
-
+    color: var(--color-primary-dark);
     font-size: 0.9rem;
     font-weight: 800;
-
     letter-spacing: 0.2em;
 }
 
 .hero h1 {
     margin: 0;
-
     font-size: clamp(3.5rem, 9vw, 7rem);
     line-height: 0.95;
     letter-spacing: -0.05em;
 }
 
 .hero h1 span {
-    color: #FC676B;
+    color: var(--color-primary);
 }
 
 .hero h2 {
     margin: 15px 0 0;
-
-    color: #777;
-
+    color: var(--color-gray);
     font-size: 1.4rem;
     font-weight: 500;
-
     letter-spacing: 0.08em;
 }
 
 .hero-description {
     margin: 40px 0;
-
-    color: #666;
-
+    color: var(--color-gray);
     font-size: 1rem;
 }
 
 .more-button {
     display: inline-block;
-
     padding: 13px 22px;
-
-    border: 1px solid #181818;
-
-    color: #181818;
-
+    border: 1px solid var(--color-text);
+    color: var(--color-text);
     font-size: 0.75rem;
     font-weight: 800;
-
     letter-spacing: 0.1em;
     text-decoration: none;
-
-    transition:
-        background 0.2s,
-        color 0.2s,
-        border-color 0.2s;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 .more-button:hover {
-    background: #FC676B;
-    border-color: #FC676B;
+    background: var(--color-primary);
+    border-color: var(--color-primary);
     color: white;
 }
-
-
-/* =========================
-   Hero Icon
-========================= */
 
 .hero-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-
     min-width: 0;
 }
 
 .hero-icon img {
     display: block;
-
     width: min(100%, 480px);
     height: auto;
-
     object-fit: contain;
-
-    /* ほんの少しだけアクセント */
     filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.08));
 }
 
+/* =========================
+   Section Common
+========================= */
+
+.section-title {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.section-title span {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
 
 /* =========================
-   Hero Mobile
+   About (2. 黒)
+========================= */
+
+.about-section {
+    width: 100%;
+    margin: 0;
+    padding: 120px max(20px, calc((100% - 1100px) / 2));
+    background: var(--color-text);
+    color: var(--color-white);
+}
+
+.about-section .section-title span {
+    color: var(--color-primary-dark);
+}
+
+.about-section .section-title h2 {
+    color: var(--color-white);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 80px;
+}
+
+.about-name {
+    border-top: 2px solid var(--color-primary);
+    padding-top: 20px;
+}
+
+.small-label {
+    margin: 0;
+    color: var(--color-gray-light);
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+.about-name h3 {
+    margin: 10px 0 0;
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.about-name p:last-child {
+    color: var(--color-gray-light);
+}
+
+.about-text {
+    color: var(--color-white);
+}
+
+.about-text p {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   Skills (3. 白)
+========================= */
+
+.skills-section {
+    width: min(1100px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 120px 0;
+    color: var(--color-text);
+}
+
+.skills-section .section-title h2 {
+    color: var(--color-text);
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    width: 100%;
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.skill {
+    min-width: 0;
+    min-height: 220px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    overflow-wrap: break-word;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.skill:hover {
+    background: var(--color-white);
+    border-color: var(--color-primary);
+}
+
+.skill span {
+    color: var(--color-gray);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.skill h3 {
+    margin: 45px 0 5px;
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+.skill p {
+    margin: 0;
+    color: var(--color-gray);
+}
+
+/* =========================
+   Hobby (4. 黒)
+========================= */
+
+.hobby-section {
+    width: 100%;
+    margin: 0;
+    padding: 120px max(20px, calc((100% - 1100px) / 2));
+    background: var(--color-text);
+    color: var(--color-white);
+}
+
+.hobby-section .section-title span {
+    color: var(--color-primary-dark);
+}
+
+.hobby-section .section-title h2 {
+    color: var(--color-white);
+}
+
+.hobby-list {
+    border-top: 1px solid var(--color-border-dark);
+}
+
+.hobby-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+    padding: 35px 0;
+    border-bottom: 1px solid var(--color-border-dark);
+}
+
+.hobby-item h3 {
+    margin: 0 0 8px;
+    font-size: 1.4rem;
+    color: var(--color-white);
+}
+
+.hobby-item p {
+    margin: 0 0 12px;
+    color: var(--color-gray-light);
+}
+
+.hobby-item a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hobby-item a::after {
+    content: "↗";
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    transition: transform 0.2s;
+}
+
+.hobby-item a:hover {
+    color: var(--color-primary-light);
+}
+
+.hobby-item a:hover::after {
+    transform: translate(3px, -3px);
+}
+
+/* =========================
+   Links Section (5. 白)
+========================= */
+
+.links-section {
+    width: min(1100px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 120px 0 150px;
+    color: var(--color-text);
+}
+
+.links-section .section-title h2 {
+    color: var(--color-text);
+}
+
+.links {
+    border-top: 2px solid var(--color-text);
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: padding 0.2s, background 0.2s, color 0.2s;
+}
+
+.link:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: var(--color-primary-light);
+    color: var(--color-primary-dark);
+}
+
+.link span:last-child {
+    color: var(--color-primary);
+    transition: transform 0.2s;
+}
+
+.link:hover span:last-child {
+    transform: translate(3px, -3px);
+}
+
+/* General Links */
+a {
+    transition: color 0.2s;
+}
+
+/* =========================
+   Footer (6. 白)
+========================= */
+
+footer {
+    padding: 30px;
+    border-top: 1px solid var(--color-border);
+    color: var(--color-gray-light);
+    font-size: 0.75rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+/* =========================
+   Mobile
 ========================= */
 
 @media (max-width: 700px) {
+    .header-inner {
+        height: 60px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 0.65rem;
+    }
 
     .hero {
         min-height: auto;
-
         padding: 80px 0;
     }
 
@@ -350,369 +573,18 @@ nav a:hover::after {
         width: min(70vw, 320px);
     }
 
-}
-
-/* =========================
-   Section
-========================= */
-
-.section {
-    width: min(1100px, calc(100% - 40px));
-
-    margin: 0 auto;
-    padding: 120px 0;
-}
-
-.section-title {
-    display: flex;
-    align-items: baseline;
-    gap: 15px;
-
-    margin-bottom: 60px;
-}
-
-.section-title span {
-    color: #FC676B;
-
-    font-size: 0.75rem;
-    font-weight: 800;
-}
-
-.section-title h2 {
-    margin: 0;
-
-    font-size: 2rem;
-    letter-spacing: 0.05em;
-}
-
-
-/* =========================
-   About
-========================= */
-
-.about-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-    gap: 80px;
-}
-
-.about-name {
-    border-top: 2px solid #FC676B;
-    padding-top: 20px;
-}
-
-.small-label {
-    margin: 0;
-
-    color: #999;
-
-    font-size: 0.7rem;
-    font-weight: 800;
-    letter-spacing: 0.15em;
-}
-
-.about-name h3 {
-    margin: 10px 0 0;
-
-    font-size: 2rem;
-}
-
-.about-name p:last-child {
-    color: #777;
-}
-
-.about-text {
-    color: #555;
-}
-
-.about-text p {
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-
-
-/* =========================
-   Skills
-========================= */
-
-.dark-section {
-    width: 100%;
-    max-width: none;
-
-    margin: 0;
-
-    padding:
-        120px
-        max(20px, calc((100% - 1100px) / 2));
-
-    background: #181818;
-    color: white;
-}
-
-.dark-section .section-title span {
-    color: #FC676B;
-}
-
-.dark-section .section-title h2 {
-    color: white;
-}
-
-.skill-grid {
-    display: grid;
-
-    grid-template-columns:
-        minmax(0, 1fr)
-        minmax(0, 1fr);
-
-    width: 100%;
-
-    border-top: 1px solid #444;
-    border-left: 1px solid #444;
-}
-
-.skill {
-    min-width: 0;
-    min-height: 220px;
-
-    padding: 30px;
-
-    border-right: 1px solid #444;
-    border-bottom: 1px solid #444;
-
-    overflow-wrap: break-word;
-
-    transition:
-        background 0.2s,
-        border-color 0.2s;
-}
-
-.skill:hover {
-    background: #222;
-    border-color: #FC676B;
-}
-
-.skill span {
-    color: #FFFFFF;
-
-    font-size: 0.75rem;
-    font-weight: 700;
-}
-
-.skill h3 {
-    margin: 45px 0 5px;
-
-    font-size: 1.5rem;
-}
-
-.skill p {
-    margin: 0;
-
-    color: #999;
-}
-
-
-/* =========================
-   Hobby
-========================= */
-
-.hobby-list {
-    border-top: 1px solid #ccc;
-}
-
-.hobby-item {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 30px;
-
-    padding: 35px 0;
-
-    border-bottom: 1px solid #ccc;
-}
-
-
-.hobby-item h3 {
-    margin: 0 0 8px;
-
-    font-size: 1.4rem;
-}
-
-.hobby-item p {
-    margin: 0 0 12px;
-
-    color: #666;
-}
-
-
-/* =========================
-   Hobby / Work Links
-========================= */
-
-.hobby-item a {
-    position: relative;
-
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-
-    color: #D50015;
-
-    font-size: 0.9rem;
-    font-weight: 700;
-
-    text-decoration: none;
-}
-
-.hobby-item a::after {
-    content: "↗";
-
-    color: #FC676B;
-
-    font-size: 0.9rem;
-
-    transition: transform 0.2s;
-}
-
-.hobby-item a:hover {
-    color: #FC676B;
-}
-
-.hobby-item a:hover::after {
-    transform: translate(3px, -3px);
-}
-
-
-/* =========================
-   General Links
-========================= */
-
-a {
-    transition: color 0.2s;
-}
-
-
-/* =========================
-   Links Section
-========================= */
-
-.links-section {
-    padding-bottom: 150px;
-   width: 100%;
-    max-width: none;
-
-    margin: 0;
-
-    padding:
-        120px
-        max(20px, calc((100% - 1100px) / 2));
-
-    background: #181818;
-    color: white;
-}
-
-.links {
-    border-top: 2px solid #181818;
-}
-
-.link {
-    display: flex;
-    justify-content: space-between;
-
-    padding: 25px 10px;
-
-    border-bottom: 1px solid #ccc;
-
-    color: #FFFFFF;
-
-    font-size: 1.5rem;
-    font-weight: 600;
-
-    text-decoration: none;
-
-    transition:
-        padding 0.2s,
-        background 0.2s,
-        color 0.2s;
-}
-
-.link:hover {
-    padding-left: 20px;
-    padding-right: 20px;
-
-    background: #fff0f0;
-
-    color: #D50015;
-}
-
-.link span:last-child {
-    color: #FC676B;
-
-    transition: transform 0.2s;
-}
-
-.link:hover span:last-child {
-    transform: translate(3px, -3px);
-}
-
-
-/* =========================
-   Footer
-========================= */
-
-footer {
-    padding: 30px;
-
-    border-top: 1px solid #ddd;
-
-    color: #888;
-
-    font-size: 0.75rem;
-    text-align: center;
-
-    letter-spacing: 0.1em;
-}
-
-
-/* =========================
-   Mobile
-========================= */
-
-@media (max-width: 700px) {
-
-    .header-inner {
-        height: 60px;
+    .about-section,
+    .hobby-section {
+        padding: 80px 20px;
     }
 
-    nav {
-        gap: 12px;
-    }
-
-    nav a {
-        font-size: 0.65rem;
-    }
-
-
-    .hero {
-        min-height: 550px;
-    }
-
-    .hero h1 {
-        font-size: 4rem;
-    }
-
-
-    .section {
+    .skills-section {
         padding: 80px 0;
     }
-
 
     .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
-    }
-
-
-    .dark-section {
-        padding: 80px 20px;
     }
 
     .skill-grid {
@@ -723,15 +595,12 @@ footer {
         min-height: auto;
     }
 
-
     .hobby-item {
         grid-template-columns: minmax(0, 1fr);
         gap: 15px;
     }
 
-
     .links-section {
         padding-bottom: 100px;
     }
-
 }
