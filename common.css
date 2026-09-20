@@ -16,7 +16,6 @@
     --color-border: #ddd;
     --color-border-dark: #444;
 }
-
 /* =========================
    Base
 ========================= */
@@ -31,38 +30,42 @@ html {
 
 body {
     margin: 0;
+
     background: var(--color-bg);
     color: var(--color-text);
+
     font-family:
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
         "Noto Sans JP",
         sans-serif;
+
     line-height: 1.8;
 }
 
-a {
-    transition: color 0.2s;
-}
 
 /* =========================
-   Header (1. 白)
+   Header
 ========================= */
 
 .header {
     position: sticky;
     top: 0;
     z-index: 100;
+
     background: rgba(248, 248, 248, 0.92);
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border-dark);
+
     backdrop-filter: blur(10px);
 }
 
 .header-inner {
     width: min(1100px, calc(100% - 40px));
     height: 70px;
+
     margin: 0 auto;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,8 +73,10 @@ a {
 
 .logo {
     color: var(--color-text);
+
     font-size: 1rem;
     font-weight: 800;
+
     letter-spacing: 0.08em;
     text-decoration: none;
 }
@@ -87,22 +92,30 @@ nav {
 
 nav a {
     position: relative;
+
     color: var(--color-gray);
+
     font-size: 0.75rem;
     font-weight: 700;
+
     letter-spacing: 0.12em;
     text-decoration: none;
+
     transition: color 0.2s;
 }
 
 nav a::after {
     content: "";
+
     position: absolute;
     left: 0;
     bottom: -6px;
+
     width: 0;
     height: 2px;
+
     background: var(--color-primary);
+
     transition: width 0.2s;
 }
 
@@ -113,9 +126,8 @@ nav a:hover {
 nav a:hover::after {
     width: 100%;
 }
-
 /* =========================
-   Glitch
+   Gritch
 ========================= */
 
 #heroTitle {
@@ -124,12 +136,14 @@ nav a:hover::after {
     white-space: nowrap;
 }
 
+/* RGBグリッチ */
 #heroTitle.glitch {
     animation:
         rgb-shift 0.08s steps(2, end) infinite,
         glitch-jump 0.13s steps(2, end) infinite;
 }
 
+/* 赤・緑の色ズレ */
 @keyframes rgb-shift {
     0% {
         text-shadow:
@@ -137,24 +151,28 @@ nav a:hover::after {
              4px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(0);
     }
+
     25% {
         text-shadow:
              6px 0 rgba(255, 0, 0, 0.9),
             -5px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(-2px);
     }
+
     50% {
         text-shadow:
             -7px 0 rgba(255, 0, 0, 0.9),
              3px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(2px);
     }
+
     75% {
         text-shadow:
              3px 0 rgba(255, 0, 0, 0.9),
             -7px 0 rgba(0, 255, 0, 0.9);
         transform: translateX(-1px);
     }
+
     100% {
         text-shadow:
             -4px 0 rgba(255, 0, 0, 0.9),
@@ -163,38 +181,61 @@ nav a:hover::after {
     }
 }
 
+/* 文字の横方向のズレ */
 @keyframes glitch-jump {
-    0% { clip-path: inset(0 0 0 0); }
-    20% { clip-path: inset(15% 0 60% 0); }
-    40% { clip-path: inset(70% 0 10% 0); }
-    60% { clip-path: inset(30% 0 40% 0); }
-    80% { clip-path: inset(80% 0 5% 0); }
-    100% { clip-path: inset(0 0 0 0); }
+    0% {
+        clip-path: inset(0 0 0 0);
+    }
+
+    20% {
+        clip-path: inset(15% 0 60% 0);
+    }
+
+    40% {
+        clip-path: inset(70% 0 10% 0);
+    }
+
+    60% {
+        clip-path: inset(30% 0 40% 0);
+    }
+
+    80% {
+        clip-path: inset(80% 0 5% 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
 }
 
 /* =========================
-   Hero (1. 白)
+   Hero
 ========================= */
 
 .hero {
     min-height: 650px;
+
     display: flex;
     align-items: center;
+
     border-bottom: 1px solid var(--color-border);
-    background: linear-gradient(
-        135deg,
-        #f8f8f8 0%,
-        #f8f8f8 70%,
-        #fff0f0 100%
-    );
+    background:
+        linear-gradient(
+            135deg,
+            var(--color-bg) 0%,
+            var(--color-bg) 70%,
+            var(--color-primary-light) 100%
+        );
 }
 
 .hero-inner {
     width: min(1100px, calc(100% - 40px));
     margin: 0 auto;
+
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(350px, 0.8fr);
     gap: 60px;
+
     align-items: center;
 }
 
@@ -204,14 +245,18 @@ nav a:hover::after {
 
 .hero-label {
     margin: 0 0 25px;
+
     color: var(--color-primary-dark);
+
     font-size: 0.9rem;
     font-weight: 800;
+
     letter-spacing: 0.2em;
 }
 
 .hero h1 {
     margin: 0;
+
     font-size: clamp(3.5rem, 9vw, 7rem);
     line-height: 0.95;
     letter-spacing: -0.05em;
@@ -223,102 +268,142 @@ nav a:hover::after {
 
 .hero h2 {
     margin: 15px 0 0;
+
     color: var(--color-gray);
+
     font-size: 1.4rem;
     font-weight: 500;
+
     letter-spacing: 0.08em;
 }
 
 .hero-description {
     margin: 40px 0;
+
     color: var(--color-gray);
+
     font-size: 1rem;
 }
 
 .more-button {
     display: inline-block;
+
     padding: 13px 22px;
+
     border: 1px solid var(--color-text);
+
     color: var(--color-text);
+
     font-size: 0.75rem;
     font-weight: 800;
+
     letter-spacing: 0.1em;
     text-decoration: none;
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
+
+    transition:
+        background 0.2s,
+        color 0.2s,
+        border-color 0.2s;
 }
 
 .more-button:hover {
     background: var(--color-primary);
     border-color: var(--color-primary);
-    color: white;
+    color: var(--color-white);
 }
+
+/* =========================
+   Hero Icon
+========================= */
 
 .hero-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+
     min-width: 0;
 }
 
 .hero-icon img {
     display: block;
+
     width: min(100%, 480px);
     height: auto;
+
     object-fit: contain;
+
+    /* ほんの少しだけアクセント */
     filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.08));
 }
 
+
 /* =========================
-   Sections (共通構造 & ユーティリティ)
+   Hero Mobile
 ========================= */
 
-/* デフォルトのセクション（白背景） */
+@media (max-width: 700px) {
+
+    .hero {
+        min-height: auto;
+
+        padding: 80px 0;
+    }
+
+    .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero-icon {
+        order: -1;
+    }
+
+    .hero-icon img {
+        width: min(70vw, 320px);
+    }
+
+}
+
+/* =========================
+   Section
+========================= */
+
 .section {
-    width: 100%;
-    margin: 0;
-    padding: 120px max(20px, calc((100% - 1100px) / 2));
-    background: var(--color-bg);
-    color: var(--color-text);
+    width: min(1100px, calc(100% - 40px));
+
+    margin: 0 auto;
+    padding: 120px 0;
 }
 
 .section-title {
     display: flex;
     align-items: baseline;
     gap: 15px;
+
     margin-bottom: 60px;
 }
 
 .section-title span {
     color: var(--color-primary);
+
     font-size: 0.75rem;
     font-weight: 800;
 }
 
 .section-title h2 {
     margin: 0;
+
     font-size: 2rem;
     letter-spacing: 0.05em;
-    color: var(--color-text);
 }
 
-/* -------------------------
-   .dark-section (黒背景用ユーティリティ)
-------------------------- */
-.dark-section {
-    background: var(--color-text);
-    color: var(--color-white);
-}
-
-.dark-section .section-title span {
-    color: var(--color-primary-dark);
-}
-
-.dark-section .section-title h2 {
-    color: var(--color-white);
-}
 
 /* =========================
-   About Component
+   About
 ========================= */
 
 .about-grid {
@@ -334,7 +419,9 @@ nav a:hover::after {
 
 .small-label {
     margin: 0;
+
     color: var(--color-gray-light);
+
     font-size: 0.7rem;
     font-weight: 800;
     letter-spacing: 0.15em;
@@ -342,6 +429,7 @@ nav a:hover::after {
 
 .about-name h3 {
     margin: 10px 0 0;
+
     font-size: 2rem;
 }
 
@@ -358,82 +446,89 @@ nav a:hover::after {
     margin-bottom: 25px;
 }
 
-/* ダークセクション内の配色調整 */
-.dark-section .about-name h3,
-.dark-section .about-text {
+
+/* =========================
+   Skills
+========================= */
+
+.dark-section {
+    width: 100%;
+    max-width: none;
+
+    margin: 0;
+
+    padding:
+        120px
+        max(20px, calc((100% - 1100px) / 2));
+
+    background: var(--color-text);
     color: var(--color-white);
 }
 
-.dark-section .about-name p:last-child {
-    color: var(--color-gray-light);
+.dark-section .section-title span {
+    color: var(--color-primary-dark);
 }
 
-/* =========================
-   Skills Component
-========================= */
+.dark-section .section-title h2 {
+    color: var(--color-white);
+}
 
 .skill-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, 1fr);
+
     width: 100%;
-    border-top: 1px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
+
+    border-top: 1px solid var(--color-border-dark);
+    border-left: 1px solid var(--color-border-dark);
 }
 
 .skill {
     min-width: 0;
     min-height: 220px;
+
     padding: 30px;
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
+
+    border-right: 1px solid var(--color-border-dark);
+    border-bottom: 1px solid var(--color-border-dark);
+
     overflow-wrap: break-word;
-    transition: background 0.2s, border-color 0.2s;
+
+    transition:
+        background 0.2s,
+        border-color 0.2s;
 }
 
 .skill:hover {
-    background: var(--color-white);
+    background: var(--color-text);
     border-color: var(--color-primary);
 }
 
 .skill span {
-    color: var(--color-gray);
+    color: var(--color-white);
+
     font-size: 0.75rem;
     font-weight: 700;
 }
 
 .skill h3 {
     margin: 45px 0 5px;
+
     font-size: 1.5rem;
-    color: var(--color-text);
 }
 
 .skill p {
     margin: 0;
-    color: var(--color-gray);
-}
 
-/* ダークセクション内の配色調整 */
-.dark-section .skill-grid,
-.dark-section .skill {
-    border-color: var(--color-border-dark);
-}
-
-.dark-section .skill:hover {
-    background: var(--color-text);
-    border-color: var(--color-primary);
-}
-
-.dark-section .skill span,
-.dark-section .skill h3 {
-    color: var(--color-white);
-}
-
-.dark-section .skill p {
     color: var(--color-gray-light);
 }
 
+
 /* =========================
-   Hobby Component
+   Hobby
 ========================= */
 
 .hobby-list {
@@ -444,35 +539,52 @@ nav a:hover::after {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: 30px;
+
     padding: 35px 0;
+
     border-bottom: 1px solid var(--color-gray-light);
 }
 
+
 .hobby-item h3 {
     margin: 0 0 8px;
+
     font-size: 1.4rem;
 }
 
 .hobby-item p {
     margin: 0 0 12px;
+
     color: var(--color-gray);
 }
 
+
+/* =========================
+   Hobby / Work Links
+========================= */
+
 .hobby-item a {
     position: relative;
+
     display: inline-flex;
     align-items: center;
     gap: 8px;
+
     color: var(--color-primary-dark);
+
     font-size: 0.9rem;
     font-weight: 700;
+
     text-decoration: none;
 }
 
 .hobby-item a::after {
     content: "↗";
+
     color: var(--color-primary);
+
     font-size: 0.9rem;
+
     transition: transform 0.2s;
 }
 
@@ -484,31 +596,34 @@ nav a:hover::after {
     transform: translate(3px, -3px);
 }
 
-/* ダークセクション内の配色調整 */
-.dark-section .hobby-list,
-.dark-section .hobby-item {
-    border-color: var(--color-border-dark);
-}
-
-.dark-section .hobby-item h3 {
-    color: var(--color-white);
-}
-
-.dark-section .hobby-item p {
-    color: var(--color-gray-light);
-}
-
-.dark-section .hobby-item a {
-    color: var(--color-primary);
-}
-
-.dark-section .hobby-item a:hover {
-    color: var(--color-primary-light);
-}
 
 /* =========================
-   Links Component
+   General Links
 ========================= */
+
+a {
+    transition: color 0.2s;
+}
+
+
+/* =========================
+   Links Section
+========================= */
+
+.links-section {
+    width: 100%;
+    max-width: none;
+
+    margin: 0;
+
+    padding:
+        120px
+        max(20px, calc((100% - 1100px) / 2))
+        150px;
+
+    background: var(--color-text);
+    color: var(--color-white);
+}
 
 .links {
     border-top: 2px solid var(--color-text);
@@ -517,24 +632,36 @@ nav a:hover::after {
 .link {
     display: flex;
     justify-content: space-between;
+
     padding: 25px 10px;
-    border-bottom: 1px solid var(--color-border);
-    color: var(--color-text);
+
+    border-bottom: 1px solid var(--color-gray-light);
+
+    color: var(--color-white);
+
     font-size: 1.5rem;
     font-weight: 600;
+
     text-decoration: none;
-    transition: padding 0.2s, background 0.2s, color 0.2s;
+
+    transition:
+        padding 0.2s,
+        background 0.2s,
+        color 0.2s;
 }
 
 .link:hover {
     padding-left: 20px;
     padding-right: 20px;
+
     background: var(--color-primary-light);
+
     color: var(--color-primary-dark);
 }
 
 .link span:last-child {
     color: var(--color-primary);
+
     transition: transform 0.2s;
 }
 
@@ -542,34 +669,31 @@ nav a:hover::after {
     transform: translate(3px, -3px);
 }
 
-/* ダークセクション内の配色調整 */
-.dark-section .links {
-    border-top-color: var(--color-white);
-}
-
-.dark-section .link {
-    border-bottom-color: var(--color-border-dark);
-    color: var(--color-white);
-}
 
 /* =========================
-   Footer (6. 白)
+   Footer
 ========================= */
 
 footer {
     padding: 30px;
+
     border-top: 1px solid var(--color-border);
+
     color: var(--color-gray-light);
+
     font-size: 0.75rem;
     text-align: center;
+
     letter-spacing: 0.1em;
 }
+
 
 /* =========================
    Mobile
 ========================= */
 
 @media (max-width: 700px) {
+
     .header-inner {
         height: 60px;
     }
@@ -582,30 +706,29 @@ footer {
         font-size: 0.65rem;
     }
 
+
     .hero {
-        min-height: auto;
-        padding: 80px 0;
+        min-height: 550px;
     }
 
     .hero h1 {
         font-size: 4rem;
     }
 
-    .hero-icon {
-        order: -1;
-    }
-
-    .hero-icon img {
-        width: min(70vw, 320px);
-    }
 
     .section {
-        padding: 80px 20px;
+        padding: 80px 0;
     }
+
 
     .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+
+    .dark-section {
+        padding: 80px 20px;
     }
 
     .skill-grid {
@@ -616,8 +739,15 @@ footer {
         min-height: auto;
     }
 
+
     .hobby-item {
         grid-template-columns: minmax(0, 1fr);
         gap: 15px;
     }
+
+
+    .links-section {
+        padding-bottom: 100px;
+    }
+
 }
