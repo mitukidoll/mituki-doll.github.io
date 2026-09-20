@@ -234,7 +234,7 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-
+```css
 /* =========================
    Skills
 ========================= */
@@ -243,8 +243,8 @@ nav a:hover {
     width: 100%;
     max-width: none;
 
-    padding-left: max(20px, calc((100% - 1100px) / 2));
-    padding-right: max(20px, calc((100% - 1100px) / 2));
+    margin: 0;
+    padding: 120px max(20px, calc((100% - 1100px) / 2));
 
     background: #181818;
     color: white;
@@ -256,19 +256,26 @@ nav a:hover {
 
 .skill-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+    /* 各列が必要以上に広がらないようにする */
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 
     border-top: 1px solid #444;
     border-left: 1px solid #444;
+
+    width: 100%;
 }
 
 .skill {
+    min-width: 0;
     min-height: 220px;
 
     padding: 30px;
 
     border-right: 1px solid #444;
     border-bottom: 1px solid #444;
+
+    overflow-wrap: break-word;
 }
 
 .skill span {
@@ -288,6 +295,27 @@ nav a:hover {
 
     color: #999;
 }
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 700px) {
+
+    .dark-section {
+        padding: 80px 20px;
+    }
+
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill {
+        min-height: auto;
+    }
+}
+```
 
 
 /* =========================
