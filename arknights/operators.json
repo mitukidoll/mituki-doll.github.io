@@ -1,0 +1,5488 @@
+[
+  {
+    "id": 1,
+    "name": "イネス",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "カズデル",
+    "class": "先鋒",
+    "job": "偵察兵",
+    "cost": 11,
+    "factions": [
+      "バベル"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ヴィジェル",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "先鋒",
+    "job": "戦術家",
+    "cost": 17,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ウルピスフォリア",
+    "rarity": 6,
+    "race": "ヴァルポ",
+    "country": "シラクーザ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 14,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "サイラッハ",
+    "rarity": 6,
+    "race": "ヴイーヴル",
+    "country": "ヴィクトリア",
+    "class": "先鋒",
+    "job": "旗手",
+    "cost": 12,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "サガ",
+    "rarity": 6,
+    "race": "ペッロー",
+    "country": "極東",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 14,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "シージ",
+    "rarity": 6,
+    "race": "アスラン",
+    "country": "ヴィクトリア",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 14,
+    "factions": [
+      "ヴィクトリア",
+      "グラスゴー"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "バグパイプ",
+    "rarity": 6,
+    "race": "ヴイーヴル",
+    "country": "ヴィクトリア",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 13,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "フレイムテイル",
+    "rarity": 6,
+    "race": "ザラック",
+    "country": "カジミエーシュ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 14,
+    "factions": [
+      "カジミエーシュ",
+      "レッドパイン騎士団"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ミュルジス",
+    "rarity": 6,
+    "race": "エルフ",
+    "country": "非公開",
+    "class": "先鋒",
+    "job": "戦術家",
+    "cost": 15,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "凛御シルバーアッシュ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "イェラグ",
+    "class": "先鋒",
+    "job": "策士",
+    "cost": 13,
+    "factions": [
+      "イェラグ"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "アイリーニ",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "イベリア",
+    "class": "前衛",
+    "job": "剣豪",
+    "cost": 23,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "ヴィーナ・ヴィクトリア",
+    "rarity": 6,
+    "race": "アスラン",
+    "country": "ヴィクトリア",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 21,
+    "factions": [
+      "ヴィクトリア",
+      "グラスゴー"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "ヴィヴィアナ",
+    "rarity": 6,
+    "race": "エラフィア",
+    "country": "リターニア",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 21,
+    "factions": [
+      "リターニア",
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "ウルピアヌス",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "エーギル",
+    "class": "前衛",
+    "job": "重剣士",
+    "cost": 24,
+    "factions": [
+      "アビサルハンター"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "エンテレケイア",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "前衛",
+    "job": "鎌撃士",
+    "cost": 23,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "シルバーアッシュ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "イェラグ",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 20,
+    "factions": [
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "ズオ・ラウ",
+    "rarity": 6,
+    "race": "フィディア",
+    "country": "炎国",
+    "class": "前衛",
+    "job": "武者",
+    "cost": 26,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "スカジ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "エーギル",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 19,
+    "factions": [
+      "アビサルハンター"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "スルト",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "不明",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "ソーンズ",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 20,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "チェン",
+    "rarity": 6,
+    "race": "龍",
+    "country": "龍門",
+    "class": "前衛",
+    "job": "剣豪",
+    "cost": 23,
+    "factions": [
+      "龍門",
+      "龍門近衛局"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "チューバイ",
+    "rarity": 6,
+    "race": "エラフィア",
+    "country": "炎国",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 20,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "チョンユエ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 11,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "デーゲンブレヒャー",
+    "rarity": 6,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "前衛",
+    "job": "剣豪",
+    "cost": 23,
+    "factions": [
+      "カランド貿易",
+      "カジミエーシュ",
+      "リターニア"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "パラス",
+    "rarity": 6,
+    "race": "フォルテ",
+    "country": "ミノス",
+    "class": "前衛",
+    "job": "教官",
+    "cost": 17,
+    "factions": [
+      "ミノス"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "ブレイズ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 24,
+    "factions": [
+      "エリートオペレーター",
+      "炎国",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "ヘドリー",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "前衛",
+    "job": "重剣士",
+    "cost": 24,
+    "factions": [
+      "バベル"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "ペペ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "サルゴン",
+    "class": "前衛",
+    "job": "槌撃士",
+    "cost": 20,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "ヘラグ",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "ウルサス",
+    "class": "前衛",
+    "job": "武者",
+    "cost": 26,
+    "factions": [
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "マウンテン",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 11,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "ムリナール",
+    "rarity": 6,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "前衛",
+    "job": "解放者",
+    "cost": 12,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "レッシング",
+    "rarity": 6,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 21,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "司霆レイズ",
+    "rarity": 6,
+    "race": "麒麟",
+    "country": "炎国",
+    "class": "前衛",
+    "job": "解放者",
+    "cost": 12,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "聖約イグゼキュター",
+    "rarity": 6,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "前衛",
+    "job": "鎌撃士",
+    "cost": 23,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "赤刃明霄チェン",
+    "rarity": 6,
+    "race": "龍",
+    "country": "龍門",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 21,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "豊川祥子",
+    "rarity": 6,
+    "race": "不明",
+    "country": "不明",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 20,
+    "factions": [
+      "Ave Mujica"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "百錬ガヴィル",
+    "rarity": 6,
+    "race": "アダクリス",
+    "country": "サルゴン",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 24,
+    "factions": [
+      "ロドスアイランド",
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "耀騎士ニアール",
+    "rarity": 6,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 19,
+    "factions": [
+      "カジミエーシュ",
+      "使徒"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "サリア",
+    "rarity": 6,
+    "race": "ヴイーヴル",
+    "country": "クルビア",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 22,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "サンクタ・ミキサー",
+    "rarity": 6,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "重装",
+    "job": "哨戒衛士",
+    "cost": 25,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "シュウ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 22,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "ニェン",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 23,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "ブレミシャイン",
+    "rarity": 6,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 22,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "ペナンス",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "重装",
+    "job": "破壊者",
+    "cost": 36,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "ホシグマ",
+    "rarity": 6,
+    "race": "鬼",
+    "country": "極東",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 23,
+    "factions": [
+      "龍門近衛局",
+      "極東"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "ホルン",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "ヴィクトリア",
+    "class": "重装",
+    "job": "堅城砲手",
+    "cost": 28,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "マドロック",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "重装",
+    "job": "破壊者",
+    "cost": 36,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "ユー",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "重装",
+    "job": "本源衛士",
+    "cost": 26,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "ユーネクテス",
+    "rarity": 6,
+    "race": "フィディア",
+    "country": "サルゴン",
+    "class": "重装",
+    "job": "決闘者",
+    "cost": 33,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "斬業ホシグマ",
+    "rarity": 6,
+    "race": "鬼",
+    "country": "極東",
+    "class": "重装",
+    "job": "術技衛士",
+    "cost": 26,
+    "factions": [
+      "龍門",
+      "龍門近衛局"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "滌火ジェシカ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "重装",
+    "job": "哨戒衛士",
+    "cost": 23,
+    "factions": [
+      "BSW",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Ash",
+    "rarity": 6,
+    "race": "不明",
+    "country": "不明",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 14,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "W",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 29,
+    "factions": [
+      "バベル",
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "アルケット",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 14,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "ウィシャデル",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "狙撃",
+    "job": "投擲手",
+    "cost": 25,
+    "factions": [
+      "バベル",
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "エクシア",
+    "rarity": 6,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 14,
+    "factions": [
+      "ペンギン急便",
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "シュヴァルツ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "レム・ビリトン",
+    "class": "狙撃",
+    "job": "精密射手",
+    "cost": 20,
+    "factions": [
+      "シエスタ"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "ティフォン",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "サーミ",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 24,
+    "factions": [
+      "サーミ"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "ナラントゥヤ",
+    "rarity": 6,
+    "race": "クランタ",
+    "country": "サルゴン",
+    "class": "狙撃",
+    "job": "旋輪射手",
+    "cost": 16,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "パゼオンカ",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "ウルサス",
+    "class": "狙撃",
+    "job": "精密射手",
+    "cost": 20,
+    "factions": [
+      "ロドスアイランド",
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "ファートゥース",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "カジミエーシュ",
+    "class": "狙撃",
+    "job": "戦術射手",
+    "cost": 22,
+    "factions": [
+      "カジミエーシュ",
+      "レッドパイン騎士団"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "フィアメッタ",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 29,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "レイ",
+    "rarity": 6,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "狙撃",
+    "job": "狩人",
+    "cost": 21,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "レミュアン",
+    "rarity": 6,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "戦術射手",
+    "cost": 22,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "ロサ",
+    "rarity": 6,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 24,
+    "factions": [
+      "ウルサス",
+      "ウルサス学生自治団"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "ロスモンティス",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "クルビア",
+    "class": "狙撃",
+    "job": "投擲手",
+    "cost": 25,
+    "factions": [
+      "エリートオペレーター",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "遊龍チェン",
+    "rarity": 6,
+    "race": "龍",
+    "country": "龍門",
+    "class": "狙撃",
+    "job": "散弾射手",
+    "cost": 32,
+    "factions": [
+      "ロドスアイランド",
+      "炎国"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "イフリータ",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "非公開",
+    "class": "術師",
+    "job": "爆撃術師",
+    "cost": 34,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "エイヤフィヤトラ",
+    "rarity": 6,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 21,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "エーベンホルツ",
+    "rarity": 6,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "術師",
+    "job": "秘術師",
+    "cost": 25,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "カーネリアン",
+    "rarity": 6,
+    "race": "キャプリニー",
+    "country": "サルゴン",
+    "class": "術師",
+    "job": "法陣術師",
+    "cost": 24,
+    "factions": [
+      "リターニア",
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "ケオベ",
+    "rarity": 6,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "ゴールデングロー",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "操機術師",
+    "cost": 22,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "シー",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 34,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "ニンフ",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "術師",
+    "job": "本源術師",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "ネクラス",
+    "rarity": 6,
+    "race": "ドラコ",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "創霊術師",
+    "cost": 21,
+    "factions": [
+      "ターラー"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "パッセンジャー",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "術師",
+    "job": "連鎖術師",
+    "cost": 33,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "ホルハイヤ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "クルビア",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 21,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "マルシル",
+    "rarity": 6,
+    "race": "エルフ",
+    "country": "北方大陸(自称)",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 34,
+    "factions": [
+      "ライオスパーティー"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "マントラ",
+    "rarity": 6,
+    "race": "フィディア",
+    "country": "サルゴン",
+    "class": "術師",
+    "job": "本源術師",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "モスティマ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "ラテラーノ",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 34,
+    "factions": [
+      "ラテラーノ",
+      "ペンギン急便"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "リン",
+    "rarity": 6,
+    "race": "ザラック",
+    "country": "龍門",
+    "class": "術師",
+    "job": "法陣術師",
+    "cost": 24,
+    "factions": [
+      "龍門"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "ロゴス",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "荒蕪ラップランド",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "術師",
+    "job": "操機術師",
+    "cost": 22,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "熾炎ブレイズ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "炎国",
+    "class": "術師",
+    "job": "本源術師",
+    "cost": 21,
+    "factions": [
+      "エリートオペレーター",
+      "炎国",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "聖聆プラマニクス",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "イェラグ",
+    "class": "術師",
+    "job": "法陣術師",
+    "cost": 24,
+    "factions": [
+      "イェラグ"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Mon3tr",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "ロドスアイランド",
+    "class": "医療",
+    "job": "連鎖癒師",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "ケルシー",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ロドスアイランド",
+    "class": "医療",
+    "job": "医師",
+    "cost": 20,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "シャイニング",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "医療",
+    "job": "医師",
+    "cost": 20,
+    "factions": [
+      "使徒"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "ティティ",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "サルゴン",
+    "class": "医療",
+    "job": "呪癒師",
+    "cost": 17,
+    "factions": [
+      "サルゴン",
+      "ミノス"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "ナイチンゲール",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "医療",
+    "job": "群癒師",
+    "cost": 18,
+    "factions": [
+      "使徒"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "ルーメン",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "医療",
+    "job": "療養師",
+    "cost": 23,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "焔影リード",
+    "rarity": 6,
+    "race": "ドラコ",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "呪癒師",
+    "cost": 17,
+    "factions": [
+      "ターラー"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "純燼エイヤフィヤトラ",
+    "rarity": 6,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "医療",
+    "job": "放浪医",
+    "cost": 16,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "アンジェリーナ",
+    "rarity": 6,
+    "race": "ヴァルポ",
+    "country": "シラクーザ",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 16,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "ヴィルトゥオーサ",
+    "rarity": 6,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "補助",
+    "job": "祭儀師",
+    "cost": 16,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "シヴィライト・エテルナ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "カズデル",
+    "class": "補助",
+    "job": "吟遊者",
+    "cost": 10,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "スズラン",
+    "rarity": 6,
+    "race": "ヴァルポ",
+    "country": "極東",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 16,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "ステインレス",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "補助",
+    "job": "工匠",
+    "cost": 19,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "トラゴーディア",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "補助",
+    "job": "祭儀師",
+    "cost": 16,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "ナスティ",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "補助",
+    "job": "工匠",
+    "cost": 19,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "ノーシス",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "イェラグ",
+    "class": "補助",
+    "job": "呪詛師",
+    "cost": 13,
+    "factions": [
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "ハルカ",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "極東",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 13,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "マゼラン",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 12,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "リィン",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 12,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "レイディアン",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "ウルサス",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "淬羽サイレンス",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 15,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "溯光アステジーニ",
+    "rarity": 6,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 18,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "濁心スカジ",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "エーギル",
+    "class": "補助",
+    "job": "吟遊者",
+    "cost": 8,
+    "factions": [
+      "エーギル"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Ela",
+    "rarity": 6,
+    "race": "不明",
+    "country": "不明",
+    "class": "特殊",
+    "job": "罠師",
+    "cost": 12,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "ア",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "龍門",
+    "class": "特殊",
+    "job": "鬼才",
+    "cost": 13,
+    "factions": [
+      "龍門",
+      "リー探偵事務所"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "アスカロン",
+    "rarity": 6,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "特殊",
+    "job": "潜伏者",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "S.W.E.E.P."
+    ]
+  },
+  {
+    "id": 113,
+    "name": "ウァン",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "特殊",
+    "job": "罠師",
+    "cost": 12,
+    "factions": [
+      "炎国",
+      "歳"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "ウィーディ",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "特殊",
+    "job": "推撃手",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "イベリア"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "キリンRヤトウ",
+    "rarity": 6,
+    "race": "鬼",
+    "country": "極東",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 10,
+    "factions": [
+      "行動隊A4",
+      "極東"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "クラウンスレイヤー",
+    "rarity": 6,
+    "race": "レプロバ",
+    "country": "ウルサス",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "グレイディーア",
+    "rarity": 6,
+    "race": "非公開",
+    "country": "エーギル",
+    "class": "特殊",
+    "job": "鉤縄師",
+    "cost": 16,
+    "factions": [
+      "アビサルハンター"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "ドロシー",
+    "rarity": 6,
+    "race": "ザラック",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "罠師",
+    "cost": 12,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "ファントム",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 10,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "ミヅキ",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "極東",
+    "class": "特殊",
+    "job": "潜伏者",
+    "cost": 21,
+    "factions": [
+      "極東",
+      "エーギル"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "リー",
+    "rarity": 6,
+    "race": "龍",
+    "country": "炎国",
+    "class": "特殊",
+    "job": "行商人",
+    "cost": 9,
+    "factions": [
+      "龍門",
+      "リー探偵事務所"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "引星ソーンズ",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "特殊",
+    "job": "錬金士",
+    "cost": 18,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "帰溟スペクター",
+    "rarity": 6,
+    "race": "エーギル",
+    "country": "エーギル",
+    "class": "特殊",
+    "job": "傀儡師",
+    "cost": 16,
+    "factions": [
+      "アビサルハンター"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "血掟テキサス",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 10,
+    "factions": [
+      "ペンギン急便",
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "新約エクシア",
+    "rarity": 6,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "特殊",
+    "job": "鬼才",
+    "cost": 13,
+    "factions": [
+      "ペンギン急便",
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "琳琅スワイヤー",
+    "rarity": 6,
+    "race": "フェリーン",
+    "country": "龍門",
+    "class": "特殊",
+    "job": "行商人",
+    "cost": 9,
+    "factions": [
+      "龍門"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "エリジウム",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "イベリア",
+    "class": "先鋒",
+    "job": "旗手",
+    "cost": 11,
+    "factions": [
+      "ロドスアイランド",
+      "イベリア"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "カンタービレ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "ボリバル",
+    "class": "先鋒",
+    "job": "偵察兵",
+    "cost": 10,
+    "factions": [
+      "ロドスアイランド",
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "キアーベ",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "シラクーザ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 13,
+    "factions": [
+      "キアーベ一味"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "グラニ",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "ヴィクトリア",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 14,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "ケストレル",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "サルゴン",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 13,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "サーファー",
+    "rarity": 5,
+    "race": "ザラック",
+    "country": "クルビア",
+    "class": "先鋒",
+    "job": "偵察兵",
+    "cost": 10,
+    "factions": [
+      "クルビア",
+      "BSW"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "ズィマー",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 13,
+    "factions": [
+      "ウルサス",
+      "ウルサス学生自治団"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "チルチャック",
+    "rarity": 5,
+    "race": "ハーフフット(自称)",
+    "country": "東方大陸(自称)",
+    "class": "先鋒",
+    "job": "偵察兵",
+    "cost": 10,
+    "factions": [
+      "ライオスパーティー"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "テキサス",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "クルビア",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 13,
+    "factions": [
+      "ペンギン急便",
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "パズル",
+    "rarity": 5,
+    "race": "ヴイーヴル",
+    "country": "ヴィクトリア",
+    "class": "先鋒",
+    "job": "偵察兵",
+    "cost": 12,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "ブラックナイト",
+    "rarity": 5,
+    "race": "サヴラ",
+    "country": "レム・ビリトン",
+    "class": "先鋒",
+    "job": "戦術家",
+    "cost": 14,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "ポンシラス",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "シエスタ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 13,
+    "factions": [
+      "シエスタ"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "マツキリ",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "極東",
+    "class": "先鋒",
+    "job": "策士",
+    "cost": 14,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "ミトム",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "先鋒",
+    "job": "戦術家",
+    "cost": 14,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "リード",
+    "rarity": 5,
+    "race": "ドラコ",
+    "country": "ヴィクトリア",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 12,
+    "factions": [
+      "ヴィクトリア",
+      "ターラー"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "ワイルドメイン",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 14,
+    "factions": [
+      "カジミエーシュ",
+      "レッドパイン騎士団"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "ワンチィン",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "炎国",
+    "class": "先鋒",
+    "job": "旗手",
+    "cost": 13,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "歴陣鋭槍フェン",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Doc",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "前衛",
+    "job": "教官",
+    "cost": 16,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Fuze",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 25,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Tachanka",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "前衛",
+    "job": "剣豪",
+    "cost": 24,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "アカフユ",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "極東",
+    "class": "前衛",
+    "job": "武者",
+    "cost": 25,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "アステシア",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 21,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "アーミヤ(前衛)",
+    "rarity": 5,
+    "race": "コータス/キメラ",
+    "country": "レム・ビリトン",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "インドラ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "不明",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 10,
+    "factions": [
+      "ヴィクトリア",
+      "グラスゴー"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "ウィスラッシュ",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "前衛",
+    "job": "教官",
+    "cost": 18,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "ウィンドチャイム",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "炎国",
+    "class": "前衛",
+    "job": "重剣士",
+    "cost": 23,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "ヴァルカリス",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "ミノス",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 25,
+    "factions": [
+      "ミノス"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "エアースカーペ",
+    "rarity": 5,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 19,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "エンカク",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 20,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "オッダ",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "前衛",
+    "job": "槌撃士",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "グレースベアラー",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "ボリバル",
+    "class": "前衛",
+    "job": "本源戦士",
+    "cost": 22,
+    "factions": [
+      "ボリバル",
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "サベージ",
+    "rarity": 5,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 22,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "シデロカ",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "ミノス",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 23,
+    "factions": [
+      "ミノス"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "スペクター",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "エーギル",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 23,
+    "factions": [
+      "アビサルハンター"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "スワイヤー",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "龍門",
+    "class": "前衛",
+    "job": "教官",
+    "cost": 16,
+    "factions": [
+      "龍門",
+      "龍門近衛局"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "ダグザ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 12,
+    "factions": [
+      "グラスゴー"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "テキーラ",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "前衛",
+    "job": "解放者",
+    "cost": 13,
+    "factions": [
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "バイビーク",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "サーミ",
+    "class": "前衛",
+    "job": "剣豪",
+    "cost": 22,
+    "factions": [
+      "サーミ"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "ハイモア",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "前衛",
+    "job": "鎌撃士",
+    "cost": 22,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "ハディヤ",
+    "rarity": 5,
+    "race": "キャプリニー",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "傭兵",
+    "cost": 10,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "フランカ",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 18,
+    "factions": [
+      "クルビア",
+      "BSW"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "ブライオファイタ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "シエスタ",
+    "class": "前衛",
+    "job": "教官",
+    "cost": 18,
+    "factions": [
+      "シエスタ"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "フリント",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "サルゴン",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 10,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "ブローカ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "シラクーザ",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 23,
+    "factions": [
+      "キアーベ一味"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "モーガン",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 20,
+    "factions": [
+      "グラスゴー"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "ライオス",
+    "rarity": 5,
+    "race": "トールマン(自称)",
+    "country": "北方大陸(自称)",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 18,
+    "factions": [
+      "ライオスパーティー"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "ラ・プルマ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "ボリバル",
+    "class": "前衛",
+    "job": "鎌撃士",
+    "cost": 22,
+    "factions": [
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "ラップランド",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 19,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "リェータ",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 19,
+    "factions": [
+      "ウルサス",
+      "ウルサス学生自治団"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "レウスSノイルホーン",
+    "rarity": 5,
+    "race": "鬼",
+    "country": "極東",
+    "class": "前衛",
+    "job": "武者",
+    "cost": 25,
+    "factions": [
+      "行動隊A4",
+      "極東"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "祐天寺にゃむ",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "前衛",
+    "job": "槌撃士",
+    "cost": 21,
+    "factions": [
+      "Ave Mujica"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Blitz",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "重装",
+    "job": "哨戒衛士",
+    "cost": 22,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "アスベストス",
+    "rarity": 5,
+    "race": "サヴラ",
+    "country": "レム・ビリトン",
+    "class": "重装",
+    "job": "術技衛士",
+    "cost": 25,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "アッシュロック",
+    "rarity": 5,
+    "race": "ザラック",
+    "country": "カジミエーシュ",
+    "class": "重装",
+    "job": "堅城砲手",
+    "cost": 27,
+    "factions": [
+      "カジミエーシュ",
+      "レッドパイン騎士団"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "アンダーフロー",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "エーギル",
+    "class": "重装",
+    "job": "哨戒衛士",
+    "cost": 24,
+    "factions": [
+      "エーギル"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "ヴァルカン",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "ミノス",
+    "class": "重装",
+    "job": "破壊者",
+    "cost": 35,
+    "factions": [
+      "ミノス"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "ヴェトチキ",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "重装",
+    "job": "破壊者",
+    "cost": 35,
+    "factions": [
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "ウン",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "龍門",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 21,
+    "factions": [
+      "龍門",
+      "リー探偵事務所"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "オーロラ",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "イェラグ",
+    "class": "重装",
+    "job": "決闘者",
+    "cost": 32,
+    "factions": [
+      "イェラグ",
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "ケルン",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "クルビア",
+    "class": "重装",
+    "job": "本源衛士",
+    "cost": 25,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "クロワッサン",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "ミノス",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 22,
+    "factions": [
+      "ペンギン急便"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "シャレム",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "ヴィクトリア",
+    "class": "重装",
+    "job": "術技衛士",
+    "cost": 25,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "セメント",
+    "rarity": 5,
+    "race": "ザラック",
+    "country": "レム・ビリトン",
+    "class": "重装",
+    "job": "決闘者",
+    "cost": 32,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "センシ",
+    "rarity": 5,
+    "race": "ドワーフ(自称)",
+    "country": "イズガンダ(自称)",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 23,
+    "factions": [
+      "ライオスパーティー"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "ツェルニー",
+    "rarity": 5,
+    "race": "エラフィア",
+    "country": "リターニア",
+    "class": "重装",
+    "job": "術技衛士",
+    "cost": 27,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "ニアール",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 21,
+    "factions": [
+      "使徒",
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "バイソン",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "龍門",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 24,
+    "factions": [
+      "炎国",
+      "龍門"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "ファイヤーホイッスル",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "レム・ビリトン",
+    "class": "重装",
+    "job": "堅城砲手",
+    "cost": 27,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "フィラエ",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "サルゴン",
+    "class": "重装",
+    "job": "本源衛士",
+    "cost": 25,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "ベースライン",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "リターニア",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 21,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "ヘビーレイン",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "サルゴン",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 24,
+    "factions": [
+      "ロドスアイランド",
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "リスカム",
+    "rarity": 5,
+    "race": "ヴイーヴル",
+    "country": "ヴイーヴル",
+    "class": "重装",
+    "job": "哨戒衛士",
+    "cost": 22,
+    "factions": [
+      "クルビア",
+      "BSW"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "アオスタ",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "狙撃",
+    "job": "散弾射手",
+    "cost": 31,
+    "factions": [
+      "キアーベ一味"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "アズリウス",
+    "rarity": 5,
+    "race": "アヌーラ",
+    "country": "非公開",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 13,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "アンドレアナ",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "狙撃",
+    "job": "戦術射手",
+    "cost": 21,
+    "factions": [
+      "アビサルハンター"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "イグゼキュター",
+    "rarity": 5,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "散弾射手",
+    "cost": 31,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "インサイダー",
+    "rarity": 5,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 15,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "エイプリル",
+    "rarity": 5,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 13,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "エラト",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "ミノス",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 23,
+    "factions": [
+      "ミノス"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "キチセイ",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "極東",
+    "class": "狙撃",
+    "job": "散弾射手",
+    "cost": 31,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "グレースロート",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "非公開",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 13,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "コールドショット",
+    "rarity": 5,
+    "race": "エラフィア",
+    "country": "クルビア",
+    "class": "狙撃",
+    "job": "狩人",
+    "cost": 21,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "スカイボックス",
+    "rarity": 5,
+    "race": "サヴラ",
+    "country": "クルビア",
+    "class": "狙撃",
+    "job": "翔空射手",
+    "cost": 24,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "シェーシャ",
+    "rarity": 5,
+    "race": "ヴイーヴル",
+    "country": "サルゴン",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 28,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "ジエユン",
+    "rarity": 5,
+    "race": "アナサ",
+    "country": "炎国",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 30,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "ジュー",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 24,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "スノーハンター",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "イェラグ",
+    "class": "狙撃",
+    "job": "狩人",
+    "cost": 19,
+    "factions": [
+      "イェラグ"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "トギフォンス",
+    "rarity": 5,
+    "race": "ヴイーヴル",
+    "country": "ヴィクトリア",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 23,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "ファイヤーウォッチ",
+    "rarity": 5,
+    "race": "エラフィア",
+    "country": "非公開",
+    "class": "狙撃",
+    "job": "戦術射手",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "プラチナ",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 13,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "ブリギッド",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "ヴィクトリア",
+    "class": "狙撃",
+    "job": "旋輪射手",
+    "cost": 17,
+    "factions": [
+      "ターラー"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "プロヴァンス",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "狙撃",
+    "job": "精密射手",
+    "cost": 19,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "メテオリーテ",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 28,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "メラナイト",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "クルビア",
+    "class": "狙撃",
+    "job": "精密射手",
+    "cost": 19,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "ルナカブ",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "狙撃",
+    "job": "戦術射手",
+    "cost": 21,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "寒芒クルース",
+    "rarity": 5,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 15,
+    "factions": [
+      "ロドスアイランド",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "承曦グレイ",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "狙撃",
+    "job": "投擲手",
+    "cost": 24,
+    "factions": [
+      "ロドスアイランド",
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "アイリス",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "秘術師",
+    "cost": 24,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "アステジーニ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "術師",
+    "job": "連鎖術師",
+    "cost": 34,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "アブサント",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 22,
+    "factions": [
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "アロマ",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "術師",
+    "job": "爆撃術師",
+    "cost": 33,
+    "factions": [
+      "シラクーザ",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "アーミヤ",
+    "rarity": 5,
+    "race": "コータス/キメラ",
+    "country": "レム・ビリトン",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 20,
+    "factions": [
+      "ロドスアイランド",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "イェラ",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "イェラグ",
+    "class": "術師",
+    "job": "操機術師",
+    "cost": 23,
+    "factions": [
+      "イェラグ",
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "ウォーミー",
+    "rarity": 5,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "術師",
+    "job": "本源術師",
+    "cost": 20,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "カニパラート",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "サーミ",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 20,
+    "factions": [
+      "サーミ"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "コロセラム",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "クルビア",
+    "class": "術師",
+    "job": "爆撃術師",
+    "cost": 33,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "サンタラ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "サーミ",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 33,
+    "factions": [
+      "サーミ"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "スカイフレア",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 33,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "ディアマンテ",
+    "rarity": 5,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "術師",
+    "job": "本源術師",
+    "cost": 20,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "テクノ",
+    "rarity": 5,
+    "race": "ドゥリン",
+    "country": "ボリバル",
+    "class": "術師",
+    "job": "創霊術師",
+    "cost": 20,
+    "factions": [
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "デルフィーン",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "秘術師",
+    "cost": 26,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "トミミ",
+    "rarity": 5,
+    "race": "アダクリス",
+    "country": "サルゴン",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 22,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "ナイトメア",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 20,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "ハーモニー",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "秘術師",
+    "cost": 24,
+    "factions": [
+      "ターラー"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "ビーズワクス",
+    "rarity": 5,
+    "race": "キャプリニー",
+    "country": "サルゴン",
+    "class": "術師",
+    "job": "法陣術師",
+    "cost": 23,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "ミス・クリスティーン",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "不明",
+    "class": "術師",
+    "job": "本源術師",
+    "cost": 22,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "ミニマリスト",
+    "rarity": 5,
+    "race": "ドゥリン",
+    "country": "ドゥリン",
+    "class": "術師",
+    "job": "操機術師",
+    "cost": 23,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "ミント",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "法陣術師",
+    "cost": 25,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "レイズ",
+    "rarity": 5,
+    "race": "麒麟",
+    "country": "炎国",
+    "class": "術師",
+    "job": "連鎖術師",
+    "cost": 32,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "レオンハルト",
+    "rarity": 5,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 33,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "ロックロック",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "操機術師",
+    "cost": 21,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "炎獄ラヴァ",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 35,
+    "factions": [
+      "ロドスアイランド",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "アーミヤ(医療)",
+    "rarity": 5,
+    "race": "コータス/キメラ",
+    "country": "レム・ビリトン",
+    "class": "医療",
+    "job": "呪癒師",
+    "cost": 17,
+    "factions": [
+      "ロドスアイランド",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "ヴァンデラ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "呪癒師",
+    "cost": 17,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "ウィスパーレイン",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "イベリア",
+    "class": "医療",
+    "job": "療養師",
+    "cost": 20,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "サイレンス",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "医療",
+    "job": "医師",
+    "cost": 19,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "セイロン",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "シエスタ",
+    "class": "医療",
+    "job": "療養師",
+    "cost": 22,
+    "factions": [
+      "シエスタ"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "タラクサカム",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "サルゴン",
+    "class": "医療",
+    "job": "空癒師",
+    "cost": 18,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "トゥイエ",
+    "rarity": 5,
+    "race": "フォルテ",
+    "country": "サルゴン",
+    "class": "医療",
+    "job": "医師",
+    "cost": 21,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "ノウエル",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "療養師",
+    "cost": 20,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "ハニーベリー",
+    "rarity": 5,
+    "race": "ザラック",
+    "country": "レム・ビリトン",
+    "class": "医療",
+    "job": "放浪医",
+    "cost": 15,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "パピルス",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "サルゴン",
+    "class": "医療",
+    "job": "連鎖癒師",
+    "cost": 20,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "パプリカ",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "クルビア",
+    "class": "医療",
+    "job": "連鎖癒師",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "ハロルド",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "放浪医",
+    "cost": 17,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "フィリオプシス",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "医療",
+    "job": "群癒師",
+    "cost": 17,
+    "factions": [
+      "ライン生命",
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "フォリニック",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ウルサス",
+    "class": "医療",
+    "job": "医師",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "ブリーズ",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "群癒師",
+    "cost": 17,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "マルベリー",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "炎国",
+    "class": "医療",
+    "job": "放浪医",
+    "cost": 15,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "レコードキーパー",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "炎国",
+    "class": "医療",
+    "job": "医師",
+    "cost": 19,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "ローズソルト",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "イベリア",
+    "class": "医療",
+    "job": "群癒師",
+    "cost": 19,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "ワルファリン",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "医療",
+    "job": "医師",
+    "cost": 19,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "濯塵ハイビスカス",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "呪癒師",
+    "cost": 17,
+    "factions": [
+      "ロドスアイランド",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "アランナ",
+    "rarity": 5,
+    "race": "サヴラ",
+    "country": "レム・ビリトン",
+    "class": "補助",
+    "job": "工匠",
+    "cost": 18,
+    "factions": [
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "イースチナ",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 15,
+    "factions": [
+      "ウルサス",
+      "ウルサス学生自治団"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "ヴァラルクビン",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "サーミ",
+    "class": "補助",
+    "job": "祭儀師",
+    "cost": 15,
+    "factions": [
+      "サーミ"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "ウインドフリット",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "工匠",
+    "cost": 17,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "キャサリン",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "補助",
+    "job": "工匠",
+    "cost": 20,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "クエルクス",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "グラウコス",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "エーギル",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 15,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "グレインバッズ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "炎国",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 15,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "サンドレコナー",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "サルゴン",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 11,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "シィンズゥ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "炎国",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 13,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "シャマレ",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "シラクーザ",
+    "class": "補助",
+    "job": "呪詛師",
+    "cost": 12,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "シーン",
+    "rarity": 5,
+    "race": "ピロサ",
+    "country": "サルゴン",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 11,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "ソラ",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "非公開",
+    "class": "補助",
+    "job": "吟遊者",
+    "cost": 7,
+    "factions": [
+      "ペンギン急便"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "ツキノギ",
+    "rarity": 5,
+    "race": "エラフィア",
+    "country": "極東",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 12,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "ハイディ",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "補助",
+    "job": "吟遊者",
+    "cost": 9,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "プラマニクス",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "イェラグ",
+    "class": "補助",
+    "job": "呪詛師",
+    "cost": 12,
+    "factions": [
+      "イェラグ",
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "プロヴァイゾ",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 15,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "ボビング",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "祭儀師",
+    "cost": 15,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "メイヤー",
+    "rarity": 5,
+    "race": "アナティ",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 11,
+    "factions": [
+      "ライン生命"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "ルシーラ",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "エーギル",
+    "class": "補助",
+    "job": "呪詛師",
+    "cost": 12,
+    "factions": [
+      "エーギル"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "九色鹿",
+    "rarity": 5,
+    "race": "エラフィア",
+    "country": "炎国",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 11,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "萃香パフューマー",
+    "rarity": 5,
+    "race": "ヴァルポ",
+    "country": "ミノス",
+    "class": "補助",
+    "job": "祈祷師",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "ミノス"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "三角初華",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "補助",
+    "job": "吟遊者",
+    "cost": 7,
+    "factions": [
+      "Ave Mujica"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Frost",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "特殊",
+    "job": "罠師",
+    "cost": 11,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Iana",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "特殊",
+    "job": "傀儡師",
+    "cost": 15,
+    "factions": [
+      "レインボー小隊"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "アーモンド",
+    "rarity": 5,
+    "race": "ペッロー",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "鉤縄師",
+    "cost": 13,
+    "factions": [
+      "クルビア",
+      "BSW"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "ウユウ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "炎国",
+    "class": "特殊",
+    "job": "行商人",
+    "cost": 8,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "ウルフェナイト",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "サルゴン",
+    "class": "特殊",
+    "job": "罠師",
+    "cost": 11,
+    "factions": [
+      "サルゴン",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "エフイーター",
+    "rarity": 5,
+    "race": "ウルサス",
+    "country": "炎国",
+    "class": "特殊",
+    "job": "推撃手",
+    "cost": 20,
+    "factions": [
+      "炎国",
+      "龍門"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "エンフォーサー",
+    "rarity": 5,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "特殊",
+    "job": "推撃手",
+    "cost": 22,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "カゼマル",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "極東",
+    "class": "特殊",
+    "job": "傀儡師",
+    "cost": 15,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "カフカ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 9,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "キララ",
+    "rarity": 5,
+    "race": "エーギル",
+    "country": "極東",
+    "class": "特殊",
+    "job": "潜伏者",
+    "cost": 20,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "クリフハート",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "イェラグ",
+    "class": "特殊",
+    "job": "鉤縄師",
+    "cost": 13,
+    "factions": [
+      "イェラグ",
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "スノーズント",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "龍門",
+    "class": "特殊",
+    "job": "鉤縄師",
+    "cost": 15,
+    "factions": [
+      "炎国",
+      "龍門"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "スプリア",
+    "rarity": 5,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "特殊",
+    "job": "鬼才",
+    "cost": 12,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "ティッピ",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "巡空者",
+    "cost": 17,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "フィグリーノ",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "特殊",
+    "job": "行商人",
+    "cost": 8,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "ブリキ",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "非公開",
+    "class": "特殊",
+    "job": "錬金士",
+    "cost": 17,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "ベナ",
+    "rarity": 5,
+    "race": "キャプリニー",
+    "country": "ヴィクトリア",
+    "class": "特殊",
+    "job": "傀儡師",
+    "cost": 17,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "マンティコア",
+    "rarity": 5,
+    "race": "マンティコア",
+    "country": "サルゴン",
+    "class": "特殊",
+    "job": "潜伏者",
+    "cost": 20,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "レッド",
+    "rarity": 5,
+    "race": "ループス",
+    "country": "非公開",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 9,
+    "factions": [
+      "S.W.E.E.P.",
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "ロビン",
+    "rarity": 5,
+    "race": "アナティ",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "罠師",
+    "cost": 13,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "ワイフー",
+    "rarity": 5,
+    "race": "フェリーン",
+    "country": "炎国",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 9,
+    "factions": [
+      "龍門",
+      "リー探偵事務所"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "八幡海鈴",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "特殊",
+    "job": "潜伏者",
+    "cost": 22,
+    "factions": [
+      "Ave Mujica"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "若葉睦",
+    "rarity": 5,
+    "race": "不明",
+    "country": "不明",
+    "class": "特殊",
+    "job": "傀儡師",
+    "cost": 15,
+    "factions": [
+      "Ave Mujica"
+    ]
+  },
+  {
+    "id": 316,
+    "name": "チューリップ",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "イベリア",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Sharp",
+    "rarity": 5,
+    "race": "フィディア",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 17,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Stormeye",
+    "rarity": 5,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Pith",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 32,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Touch",
+    "rarity": 5,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "医療",
+    "job": "医師",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド",
+      "エリートオペレーター"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "ヴィグナ",
+    "rarity": 4,
+    "race": "サルカズ",
+    "country": "カズデル",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 11,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "クーリエ",
+    "rarity": 4,
+    "race": "イトラ",
+    "country": "イェラグ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 12,
+    "factions": [
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "スカベンジャー",
+    "rarity": 4,
+    "race": "ザラック",
+    "country": "非公開",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "S.W.E.E.P."
+    ]
+  },
+  {
+    "id": 324,
+    "name": "スネグーラチカ",
+    "rarity": 4,
+    "race": "リーベリ",
+    "country": "ウルサス",
+    "class": "先鋒",
+    "job": "偵察兵",
+    "cost": 9,
+    "factions": [
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "テンニンカ",
+    "rarity": 4,
+    "race": "ドゥリン",
+    "country": "非公開",
+    "class": "先鋒",
+    "job": "旗手",
+    "cost": 10,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "ビーンストーク",
+    "rarity": 4,
+    "race": "レプロバ",
+    "country": "クルビア",
+    "class": "先鋒",
+    "job": "戦術家",
+    "cost": 13,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "アレーン",
+    "rarity": 4,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 18,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "ウィンドスクート",
+    "rarity": 4,
+    "race": "フェリーン",
+    "country": "炎国",
+    "class": "前衛",
+    "job": "解放者",
+    "cost": 11,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "ウタゲ",
+    "rarity": 4,
+    "race": "不明",
+    "country": "極東",
+    "class": "前衛",
+    "job": "武者",
+    "cost": 24,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "エステル",
+    "rarity": 4,
+    "race": "アダクリス",
+    "country": "非公開",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 22,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "カッター",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "剣豪",
+    "cost": 21,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "クォーツ",
+    "rarity": 4,
+    "race": "ループス",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "重剣士",
+    "cost": 22,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "コンビクション",
+    "rarity": 4,
+    "race": "不明",
+    "country": "ミノス",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 16,
+    "factions": [
+      "ミノス"
+    ]
+  },
+  {
+    "id": 334,
+    "name": "ジャッキー",
+    "rarity": 4,
+    "race": "ペッロー",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 9,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "ドーベルマン",
+    "rarity": 4,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "前衛",
+    "job": "教官",
+    "cost": 15,
+    "factions": [
+      "ロドスアイランド",
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "ビーハンター",
+    "rarity": 4,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 9,
+    "factions": [
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "ヒューマス",
+    "rarity": 4,
+    "race": "フォルテ",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "鎌撃士",
+    "cost": 21,
+    "factions": [
+      "ロドスアイランド",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "フロストリーフ",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "クルビア",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "マトイマル",
+    "rarity": 4,
+    "race": "鬼",
+    "country": "極東",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 17,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "ムース",
+    "rarity": 4,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 20,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "羅小黒",
+    "rarity": 4,
+    "race": "フェリーン",
+    "country": "不明",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 17,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 342,
+    "name": "クオーラ",
+    "rarity": 4,
+    "race": "ペートラム",
+    "country": "非公開",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 21,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "グム",
+    "rarity": 4,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 20,
+    "factions": [
+      "ウルサス",
+      "ウルサス学生自治団"
+    ]
+  },
+  {
+    "id": 344,
+    "name": "ジュナー",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "クルビア",
+    "class": "重装",
+    "job": "術技衛士",
+    "cost": 24,
+    "factions": [
+      "ロドスアイランド",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 345,
+    "name": "バブル",
+    "rarity": 4,
+    "race": "セラト",
+    "country": "サルゴン",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 21,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "マッターホルン",
+    "rarity": 4,
+    "race": "フォルテ",
+    "country": "イェラグ",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 21,
+    "factions": [
+      "カランド貿易"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "ルトナダ",
+    "rarity": 4,
+    "race": "ザラック",
+    "country": "ボリバル",
+    "class": "重装",
+    "job": "破壊者",
+    "cost": 34,
+    "factions": [
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "アシッドドロップ",
+    "rarity": 4,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "狙撃",
+    "job": "精密射手",
+    "cost": 18,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "アンブリエル",
+    "rarity": 4,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "戦術射手",
+    "cost": 20,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "ヴァーミル",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "不明",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 12,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 351,
+    "name": "ケイパー",
+    "rarity": 4,
+    "race": "コータス",
+    "country": "ボリバル",
+    "class": "狙撃",
+    "job": "旋輪射手",
+    "cost": 14,
+    "factions": [
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "ジェシカ",
+    "rarity": 4,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 12,
+    "factions": [
+      "BSW",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "シラユキ",
+    "rarity": 4,
+    "race": "アナティ",
+    "country": "極東",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 27,
+    "factions": [
+      "極東"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "トター",
+    "rarity": 4,
+    "race": "リーベリ",
+    "country": "サルゴン",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 22,
+    "factions": [
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "パインコーン",
+    "rarity": 4,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "狙撃",
+    "job": "散弾射手",
+    "cost": 30,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "メイ",
+    "rarity": 4,
+    "race": "リーベリ",
+    "country": "ヴィクトリア",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 12,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "メテオ",
+    "rarity": 4,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 12,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "アコルト",
+    "rarity": 4,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "術師",
+    "job": "爆撃術師",
+    "cost": 32,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "インディゴ",
+    "rarity": 4,
+    "race": "フィディア",
+    "country": "イベリア",
+    "class": "術師",
+    "job": "秘術師",
+    "cost": 23,
+    "factions": [
+      "イベリア"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "カシャ",
+    "rarity": 4,
+    "race": "ザラック",
+    "country": "非公開",
+    "class": "術師",
+    "job": "操機術師",
+    "cost": 20,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "ギターノ",
+    "rarity": 4,
+    "race": "エラフィア",
+    "country": "サーミ",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 32,
+    "factions": [
+      "サーミ"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "グレイ",
+    "rarity": 4,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 32,
+    "factions": [
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 363,
+    "name": "プリン",
+    "rarity": 4,
+    "race": "エーギル",
+    "country": "クルビア",
+    "class": "術師",
+    "job": "連鎖術師",
+    "cost": 31,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "ヘイズ",
+    "rarity": 4,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 19,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "ガヴィル",
+    "rarity": 4,
+    "race": "アダクリス",
+    "country": "非公開",
+    "class": "医療",
+    "job": "医師",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド",
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 366,
+    "name": "ススーロ",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "シラクーザ",
+    "class": "医療",
+    "job": "医師",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド",
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 367,
+    "name": "セイリュウ",
+    "rarity": 4,
+    "race": "エーギル",
+    "country": "炎国",
+    "class": "医療",
+    "job": "療養師",
+    "cost": 19,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 368,
+    "name": "チェストナット",
+    "rarity": 4,
+    "race": "ドゥリン",
+    "country": "非公開",
+    "class": "医療",
+    "job": "放浪医",
+    "cost": 14,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 369,
+    "name": "パフューマー",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "ミノス",
+    "class": "医療",
+    "job": "群癒師",
+    "cost": 16,
+    "factions": [
+      "ロドスアイランド",
+      "ミノス"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "ミルラ",
+    "rarity": 4,
+    "race": "ヴァルポ",
+    "country": "非公開",
+    "class": "医療",
+    "job": "医師",
+    "cost": 18,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "アーススピリット",
+    "rarity": 4,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 14,
+    "factions": [
+      "リターニア"
+    ]
+  },
+  {
+    "id": 372,
+    "name": "ディピカ",
+    "rarity": 4,
+    "race": "非公開",
+    "country": "非公開",
+    "class": "補助",
+    "job": "召喚師",
+    "cost": 10,
+    "factions": [
+      "エーギル"
+    ]
+  },
+  {
+    "id": 373,
+    "name": "ポデンコ",
+    "rarity": 4,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 14,
+    "factions": [
+      "ロドスアイランド",
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 374,
+    "name": "ロベルタ",
+    "rarity": 4,
+    "race": "アナティ",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "工匠",
+    "cost": 17,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 375,
+    "name": "イーサン",
+    "rarity": 4,
+    "race": "サヴラ",
+    "country": "非公開",
+    "class": "特殊",
+    "job": "潜伏者",
+    "cost": 19,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 376,
+    "name": "ヴァーダント",
+    "rarity": 4,
+    "race": "フィディア",
+    "country": "ヴィクトリア",
+    "class": "特殊",
+    "job": "傀儡師",
+    "cost": 14,
+    "factions": [
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 377,
+    "name": "グラベル",
+    "rarity": 4,
+    "race": "ザラック",
+    "country": "カジミエーシュ",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 8,
+    "factions": [
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 378,
+    "name": "コントレイル",
+    "rarity": 4,
+    "race": "ザラック",
+    "country": "クルビア",
+    "class": "特殊",
+    "job": "巡空者",
+    "cost": 16,
+    "factions": [
+      "クルビア"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "ジェイ",
+    "rarity": 4,
+    "race": "ウルサス",
+    "country": "龍門",
+    "class": "特殊",
+    "job": "行商人",
+    "cost": 7,
+    "factions": [
+      "炎国",
+      "龍門"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "ショウ",
+    "rarity": 4,
+    "race": "ザラック",
+    "country": "龍門",
+    "class": "特殊",
+    "job": "推撃手",
+    "cost": 19,
+    "factions": [
+      "炎国",
+      "龍門"
+    ]
+  },
+  {
+    "id": 381,
+    "name": "ロープ",
+    "rarity": 4,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "特殊",
+    "job": "鉤縄師",
+    "cost": 12,
+    "factions": [
+      "龍門",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 382,
+    "name": "バニラ",
+    "rarity": 3,
+    "race": "ヴイーヴル",
+    "country": "ヴイーヴル",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 11,
+    "factions": [
+      "クルビア",
+      "BSW"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "フェン",
+    "rarity": 3,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 11,
+    "factions": [
+      "行動予備隊A1",
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 384,
+    "name": "プリュム",
+    "rarity": 3,
+    "race": "リーベリ",
+    "country": "ラテラーノ",
+    "class": "先鋒",
+    "job": "突撃兵",
+    "cost": 10,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "ポプカル",
+    "rarity": 3,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "前衛",
+    "job": "強襲者",
+    "cost": 19,
+    "factions": [
+      "行動予備隊A6",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 386,
+    "name": "ミッドナイト",
+    "rarity": 3,
+    "race": "サルカズ",
+    "country": "極東",
+    "class": "前衛",
+    "job": "領主",
+    "cost": 16,
+    "factions": [
+      "行動予備隊A6",
+      "極東"
+    ]
+  },
+  {
+    "id": 387,
+    "name": "メランサ",
+    "rarity": 3,
+    "race": "フェリーン",
+    "country": "ヴィクトリア",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 15,
+    "factions": [
+      "行動予備隊A4",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "カーディ",
+    "rarity": 3,
+    "race": "ペッロー",
+    "country": "リターニア",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 18,
+    "factions": [
+      "行動予備隊A4",
+      "リターニア"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "スポット",
+    "rarity": 3,
+    "race": "レプロバ",
+    "country": "サルゴン",
+    "class": "重装",
+    "job": "庇護衛士",
+    "cost": 17,
+    "factions": [
+      "行動予備隊A6",
+      "サルゴン"
+    ]
+  },
+  {
+    "id": 390,
+    "name": "ビーグル",
+    "rarity": 3,
+    "race": "ペッロー",
+    "country": "ボリバル",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 18,
+    "factions": [
+      "行動予備隊A1",
+      "ボリバル"
+    ]
+  },
+  {
+    "id": 391,
+    "name": "アドナキエル",
+    "rarity": 3,
+    "race": "サンクタ",
+    "country": "ラテラーノ",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 11,
+    "factions": [
+      "行動予備隊A4",
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "カタパルト",
+    "rarity": 3,
+    "race": "クランタ",
+    "country": "カジミエーシュ",
+    "class": "狙撃",
+    "job": "榴弾射手",
+    "cost": 23,
+    "factions": [
+      "行動予備隊A6",
+      "カジミエーシュ"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "クルース",
+    "rarity": 3,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 11,
+    "factions": [
+      "行動予備隊A1",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "スチュワード",
+    "rarity": 3,
+    "race": "ヴァルポ",
+    "country": "イェラグ",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 18,
+    "factions": [
+      "行動予備隊A4",
+      "イェラグ"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "ラヴァ",
+    "rarity": 3,
+    "race": "サルカズ",
+    "country": "ヴィクトリア",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 30,
+    "factions": [
+      "行動予備隊A1",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 396,
+    "name": "アンセル",
+    "rarity": 3,
+    "race": "コータス",
+    "country": "レム・ビリトン",
+    "class": "医療",
+    "job": "医師",
+    "cost": 17,
+    "factions": [
+      "行動予備隊A4",
+      "レム・ビリトン"
+    ]
+  },
+  {
+    "id": 397,
+    "name": "ハイビスカス",
+    "rarity": 3,
+    "race": "サルカズ",
+    "country": "ヴィクトリア",
+    "class": "医療",
+    "job": "医師",
+    "cost": 17,
+    "factions": [
+      "行動予備隊A1",
+      "ヴィクトリア"
+    ]
+  },
+  {
+    "id": 398,
+    "name": "オーキッド",
+    "rarity": 3,
+    "race": "リーベリ",
+    "country": "クルビア",
+    "class": "補助",
+    "job": "緩速師",
+    "cost": 12,
+    "factions": [
+      "行動予備隊A6",
+      "クルビア"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "ヤトウ",
+    "rarity": 2,
+    "race": "鬼",
+    "country": "極東",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 7,
+    "factions": [
+      "行動隊A4",
+      "極東"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "ノイルホーン",
+    "rarity": 2,
+    "race": "鬼",
+    "country": "極東",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 14,
+    "factions": [
+      "行動隊A4",
+      "極東"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "レンジャー",
+    "rarity": 2,
+    "race": "サヴラ",
+    "country": "非公開",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 7,
+    "factions": [
+      "ロドスアイランド",
+      "行動隊A4"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "12F",
+    "rarity": 2,
+    "race": "サヴラ",
+    "country": "不明",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 24,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 403,
+    "name": "ドゥリン",
+    "rarity": 2,
+    "race": "ドゥリン",
+    "country": "非公開",
+    "class": "術師",
+    "job": "中堅術師",
+    "cost": 12,
+    "factions": [
+      "ロドスアイランド",
+      "行動隊A4"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "CONFESS-47",
+    "rarity": 1,
+    "race": "",
+    "country": "ラテラーノ",
+    "class": "先鋒",
+    "job": "先駆兵",
+    "cost": 3,
+    "factions": [
+      "ラテラーノ"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "Castle-3",
+    "rarity": 1,
+    "race": "",
+    "country": "レイジアン工業",
+    "class": "前衛",
+    "job": "勇士",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 406,
+    "name": "Friston-3",
+    "rarity": 1,
+    "race": "",
+    "country": "ロドス",
+    "class": "重装",
+    "job": "重盾衛士",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "ジャスティスナイト",
+    "rarity": 1,
+    "race": "",
+    "country": "レイジアン工業",
+    "class": "狙撃",
+    "job": "速射手",
+    "cost": 3,
+    "factions": [
+      "カジミエーシュ",
+      "レッドパイン騎士団"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "テラ大陸調査団",
+    "rarity": 1,
+    "race": "非公開",
+    "country": "不明",
+    "class": "狙撃",
+    "job": "投擲手",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 409,
+    "name": "Lancet-2",
+    "rarity": 1,
+    "race": "",
+    "country": "レイジアン工業",
+    "class": "医療",
+    "job": "医師",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "PhonoR-0",
+    "rarity": 1,
+    "race": "",
+    "country": "ロドス",
+    "class": "補助",
+    "job": "祭儀師",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "U-Official",
+    "rarity": 1,
+    "race": "ザラック",
+    "country": "未公開",
+    "class": "補助",
+    "job": "吟遊者",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  },
+  {
+    "id": 412,
+    "name": "THRM-EX",
+    "rarity": 1,
+    "race": "",
+    "country": "レイジアン工業",
+    "class": "特殊",
+    "job": "執行者",
+    "cost": 3,
+    "factions": [
+      "ロドスアイランド"
+    ]
+  }
+]
