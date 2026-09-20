@@ -5484,5 +5484,109 @@
     "factions": [
       "ロドスアイランド"
     ]
+  },
+  {
+    "id": 413,
+    "name": "赤刃明霄チェン",
+    "rarity": 6,
+    "race": "龍",
+    "country": "龍門",
+    "class": "前衛",
+    "job": "術戦士",
+    "cost": 19,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 414,
+    "name": "ジュー",
+    "rarity": 5,
+    "race": "非公開",
+    "country": "炎国",
+    "class": "狙撃",
+    "job": "破城射手",
+    "cost": 22,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 415,
+    "name": "タラクサカム",
+    "rarity": 5,
+    "race": "クランタ",
+    "country": "サルゴン",
+    "class": "医療",
+    "job": "空癒師",
+    "cost": 16,
+    "factions": [
+      "炎国"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "ベッローネ",
+    "rarity": 6,
+    "race": "ループス",
+    "country": "シラクーザ",
+    "class": "前衛",
+    "job": "闘士",
+    "cost": 9,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 417,
+    "name": "リプレーザ",
+    "rarity": 5,
+    "race": "キャプリニー",
+    "country": "リターニア",
+    "class": "術師",
+    "job": "拡散術師",
+    "cost": 9,
+    "factions": [
+      "シラクーザ"
+    ]
+  },
+  {
+    "id": 418,
+    "name": "怒潮ズィマー",
+    "rarity": 6,
+    "race": "ウルサス",
+    "country": "ウルサス",
+    "class": "前衛",
+    "job": "槌撃士",
+    "cost": 18,
+    "factions": [
+      "ウルサス","ウルサス学生自治団"
+    ]
+  },
+  {
+    "id": 419,
+    "name": "ウクシク",
+    "rarity": 5,
+    "race": "リーベリ",
+    "country": "ウルサス",
+    "class": "医療",
+    "job": "連鎖癒師",
+    "cost": 16,
+    "factions": [
+      "ウルサス"
+    ]
+  },
+  {
+    "id": 420,
+    "name": "ボタニ",
+    "rarity": 5,
+    "race": "エラフィア",
+    "country": "ウルサス",
+    "class": "補助",
+    "job": "祭儀師",
+    "cost": 15,
+    "factions": [
+      "ウルサス"
+    ]
   }
 ]

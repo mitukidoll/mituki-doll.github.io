@@ -5,6 +5,25 @@ const DEBUG = false;
 const DEBUG_ANSWER = "ハロルド";
 const DEBUG_RANDOM = "ヴァンデラ";
 
+
+//自動で最大値のIDを入れる
+fetch("operators.json")
+    .then(response => response.json())
+    .then(operators => {
+        // IDが最大のオペレーターを取得
+        const latestOperator = operators.reduce((latest, operator) =>
+            operator.id > latest.id ? operator : latest
+        );
+
+        // 最大ID
+        document.getElementById("operatorCount").textContent = latestOperator.id;
+
+        // 最大IDのオペレーター名
+        document.getElementById("latestOperator").textContent = latestOperator.name;
+    })
+    .catch(error => {
+        console.error("JSONの読み込みに失敗しました:", error);
+    });
 document
     .getElementById("guessButton")
     .addEventListener("click", guess);
