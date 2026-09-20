@@ -1,48 +1,28 @@
 const heroTitle = document.getElementById("heroTitle");
-const nameSpan = heroTitle.querySelector("span");
 
-const originalText = "Mituki";
 const targetText = "Okami";
-
-// Characters used during corruption
 const glitchChars = "!@#$%&?ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789░▒▓█";
 
-function randomGlitchText(length) {
-    return Array.from({ length }, () =>
-        glitchChars[Math.floor(Math.random() * glitchChars.length)]
-    ).join("");
-}
-
-function glitchTo(target) {
+setTimeout(() => {
+    // RGBグリッチ開始
     heroTitle.classList.add("glitch");
 
-    let count = 0;
-    const duration = 600;
-    const interval = 50;
-    const steps = duration / interval;
+    const duration = 800;
+    const startTime = performance.now();
 
-    const timer = setInterval(() => {
-        count++;
-
-        if (count >= steps) {
-            clearInterval(timer);
-
-            // Final text
-            nameSpan.textContent = target;
-            heroTitle.classList.remove("glitch");
-
-            return;
-        }
-
-        // Gradually reveal the target text
-        const progress = count / steps;
-        const revealed = Math.floor(target.length * progress);
+    function updateGlitch(now) {
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
 
         let result = "";
 
-        for (let i = 0; i < target.length; i++) {
-            if (i < revealed) {
-                result += target[i];
+        for (let i = 0; i < targetText.length; i++) {
+
+            // 左側の文字から徐々に確定
+            const threshold = i / targetText.length;
+
+            if (progress > threshold + 0.25) {
+                result += targetText[i];
             } else {
                 result += glitchChars[
                     Math.floor(Math.random() * glitchChars.length)
@@ -50,12 +30,17 @@ function glitchTo(target) {
             }
         }
 
-        nameSpan.textContent = result;
+        heroTitle.textContent = result;
 
-    }, interval);
-}
+        if (progress < 1) {
+            requestAnimationFrame(updateGlitch);
+        } else {
+            // 最終状態
+            heroTitle.textContent = targetText;
+            heroTitle.classList.remove("glitch");
+        }
+    }
 
-// 30 seconds after page load
-setTimeout(() => {
-    glitchTo(targetText);
+    requestAnimationFrame(updateGlitch);
+
 }, 10000);

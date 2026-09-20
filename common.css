@@ -114,52 +114,79 @@ nav a:hover::after {
 
 #heroTitle {
     position: relative;
+    display: inline-block;
 }
 
-/* グリッチ中 */
+/* RGBグリッチ */
 #heroTitle.glitch {
-    animation: glitch-skew 0.12s infinite;
+    animation:
+        rgb-shift 0.08s steps(2, end) infinite,
+        glitch-jump 0.13s steps(2, end) infinite;
 }
 
-/* グリッチの複製レイヤー */
-#heroTitle.glitch::before,
-#heroTitle.glitch::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
+/* 赤・緑の色ズレ */
+@keyframes rgb-shift {
+    0% {
+        text-shadow:
+            -4px 0 rgba(255, 0, 0, 0.9),
+             4px 0 rgba(0, 255, 0, 0.9);
+        transform: translateX(0);
+    }
+
+    25% {
+        text-shadow:
+             6px 0 rgba(255, 0, 0, 0.9),
+            -5px 0 rgba(0, 255, 0, 0.9);
+        transform: translateX(-2px);
+    }
+
+    50% {
+        text-shadow:
+            -7px 0 rgba(255, 0, 0, 0.9),
+             3px 0 rgba(0, 255, 0, 0.9);
+        transform: translateX(2px);
+    }
+
+    75% {
+        text-shadow:
+             3px 0 rgba(255, 0, 0, 0.9),
+            -7px 0 rgba(0, 255, 0, 0.9);
+        transform: translateX(-1px);
+    }
+
+    100% {
+        text-shadow:
+            -4px 0 rgba(255, 0, 0, 0.9),
+             4px 0 rgba(0, 255, 0, 0.9);
+        transform: translateX(0);
+    }
 }
 
-#heroTitle.glitch::before {
-    text-shadow: -3px 0 #ff00c8;
-    clip-path: inset(0 0 50% 0);
-    animation: glitch-top 0.1s infinite;
-}
+/* 文字の横方向のズレ */
+@keyframes glitch-jump {
+    0% {
+        clip-path: inset(0 0 0 0);
+    }
 
-#heroTitle.glitch::after {
-    text-shadow: 3px 0 #00ffff;
-    clip-path: inset(50% 0 0 0);
-    animation: glitch-bottom 0.08s infinite;
-}
+    20% {
+        clip-path: inset(15% 0 60% 0);
+    }
 
-@keyframes glitch-skew {
-    0%   { transform: skewX(0); }
-    25%  { transform: skewX(2deg); }
-    50%  { transform: skewX(-3deg); }
-    75%  { transform: skewX(1deg); }
-    100% { transform: skewX(0); }
-}
+    40% {
+        clip-path: inset(70% 0 10% 0);
+    }
 
-@keyframes glitch-top {
-    0%   { transform: translateX(0); }
-    50%  { transform: translateX(8px); }
-    100% { transform: translateX(-4px); }
-}
+    60% {
+        clip-path: inset(30% 0 40% 0);
+    }
 
-@keyframes glitch-bottom {
-    0%   { transform: translateX(0); }
-    50%  { transform: translateX(-7px); }
-    100% { transform: translateX(4px); }
+    80% {
+        clip-path: inset(80% 0 5% 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
 }
 
 /* =========================
