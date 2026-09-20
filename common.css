@@ -520,6 +520,17 @@ a {
 
 .links-section {
     padding-bottom: 150px;
+   width: 100%;
+    max-width: none;
+
+    margin: 0;
+
+    padding:
+        120px
+        max(20px, calc((100% - 1100px) / 2));
+
+    background: #181818;
+    color: white;
 }
 
 .links {
