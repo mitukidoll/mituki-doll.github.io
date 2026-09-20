@@ -188,26 +188,25 @@ nav a:hover::after {
     }
 
     20% {
-        clip-path: inset(15% 0 60% 0);
+        clip-path: inset(5% 0 10% 0);
     }
 
     40% {
-        clip-path: inset(70% 0 10% 0);
+        clip-path: inset(0 0 5% 0);
     }
 
     60% {
-        clip-path: inset(30% 0 40% 0);
+        clip-path: inset(8% 0 4% 0);
     }
 
     80% {
-        clip-path: inset(80% 0 5% 0);
+        clip-path: inset(3% 0 8% 0);
     }
 
     100% {
         clip-path: inset(0 0 0 0);
     }
 }
-
 /* =========================
    Hero
 ========================= */
