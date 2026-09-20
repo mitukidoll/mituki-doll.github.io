@@ -438,7 +438,7 @@ nav a:hover::after {
 }
 
 .about-text {
-    color: var(--color-border-dark);
+    color: var(--color-border);
 }
 
 .about-text p {
@@ -503,7 +503,7 @@ nav a:hover::after {
 }
 
 .skill:hover {
-    background: var(--color-text);
+    background: var(--color-primary-light);
     border-color: var(--color-primary);
 }
 
@@ -570,7 +570,7 @@ nav a:hover::after {
     align-items: center;
     gap: 8px;
 
-    color: var(--color-primary-dark);
+    color: var(--color-gray);
 
     font-size: 0.9rem;
     font-weight: 700;
@@ -727,8 +727,21 @@ footer {
     }
 
 
-    .dark-section {
-        padding: 80px 20px;
+    /* =========================
+            Section Theme
+    ========================= */
+
+    .section-dark {
+        background: var(--color-text);
+        color: var(--color-white);
+    }
+
+    .section-dark .section-title span {
+        color: var(--color-primary);
+    }
+
+    .section-dark .section-title h2 {
+        color: var(--color-white);
     }
 
     .skill-grid {
