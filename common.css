@@ -447,13 +447,6 @@ nav a:hover::after {
     border-bottom: 1px solid #ccc;
 }
 
-.hobby-number {
-    color: #FC676B;
-
-    font-size: 0.8rem;
-    font-weight: 800;
-}
-
 .hobby-item h3 {
     margin: 0 0 8px;
 
