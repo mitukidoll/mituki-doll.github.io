@@ -29,11 +29,55 @@
 
             <button id="resetButton" type="button">
                 リセット
-            </button>
-
-            <button id="helpButton" type="button">
-                遊び方
-            </button>
+                        </button>
+            <dialog id="helpDialog">
+                <div class="dialog-header">
+                    <h2>遊び方</h2>
+                    <button id="closeHelpButton" type="button" aria-label="閉じる">
+                        ×
+                    </button>
+                </div>
+            
+                <div class="dialog-content">
+                    <p>
+                        オペレーターの名前を入力して、Enterキーまたは「guess」ボタンを押してください。
+                    </p>
+            
+                    <p>
+                        正解を知りたい場合は「ギブアップ」ボタンを押してください。
+                    </p>
+            
+                    <h3>一部オペレーターの扱いについて</h3>
+            
+                    <ul>
+                        <li>情報は白wikiの内容を基にしています。</li>
+                        <li>統合戦略のみで登場するオペレータなどを含みます。</li>
+                        <li>
+                            種族が複数あるオペレーターは、完全一致でないと正解扱いになりません。<br>
+                            例）種族が「コータス/キメラ」のオペレーターと、
+                            「コータス」のオペレーターを比較すると、不一致扱いになります。
+                        </li>
+                        <li>「製造元」は「出身地」として扱います。</li>
+                        <li>一部オペレーターの種族はプロファイルにないため、空白になります。</li>
+                        <li>
+                            陣営として扱うのは、各オペレーター個別ページで記載のある陣営および副陣営のみです。
+                            親組織の陣営は記載のない限り考慮しません。<br>
+                            例）陣営が「行動予備隊A1」のオペレーターは
+                            「ロドスアイランド」陣営として扱いません。
+                        </li>
+                        <li>陣営と副陣営に序列、区別はつけていません。</li>
+                        <li>
+                            職分が不一致で職業が一致している場合、部分一致扱いになります。
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="dialog-footer">
+                    <button id="closeHelpButtonBottom" type="button">
+                        閉じる
+                    </button>
+                </div>
+            </dialog>
             <input
                 type="text"
                 id="operatorInput"
