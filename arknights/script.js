@@ -25,17 +25,12 @@ document
 const helpDialog = document.getElementById("helpDialog");
 const helpButton = document.getElementById("helpButton");
 const closeHelpButton = document.getElementById("closeHelpButton");
-const closeHelpButtonBottom = document.getElementById("closeHelpButtonBottom");
 
 helpButton.addEventListener("click", () => {
     helpDialog.showModal();
 });
 
 closeHelpButton.addEventListener("click", () => {
-    helpDialog.close();
-});
-
-closeHelpButtonBottom.addEventListener("click", () => {
     helpDialog.close();
 });
 
