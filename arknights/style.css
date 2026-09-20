@@ -47,6 +47,94 @@ input:disabled {
     cursor: not-allowed;
 }
 
+/* ===== ヘルプ ===== */
+#helpDialog {
+    width: min(700px, calc(100% - 40px));
+    max-height: 80vh;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+    color: #181818;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+#helpDialog::backdrop {
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(3px);
+}
+
+.dialog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-bottom: 1px solid #eee;
+}
+
+.dialog-header h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.dialog-header button {
+    border: none;
+    background: none;
+    color: #666;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.dialog-header button:hover {
+    color: #D50015;
+}
+
+.dialog-content {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 24px;
+    line-height: 1.8;
+}
+
+.dialog-content p {
+    margin: 0 0 20px;
+}
+
+.dialog-content h3 {
+    margin: 30px 0 15px;
+    color: #D50015;
+    font-size: 1rem;
+}
+
+.dialog-content ul {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+.dialog-content li {
+    margin-bottom: 12px;
+}
+
+.dialog-footer {
+    padding: 16px 24px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+#closeHelpButtonBottom {
+    padding: 10px 20px;
+    border: 1px solid #181818;
+    border-radius: 4px;
+    background: #181818;
+    color: #fff;
+    cursor: pointer;
+}
+
+#closeHelpButtonBottom:hover {
+    background: #D50015;
+    border-color: #D50015;
+}
 /* ===== ヘッダー ===== */
 
 header {
