@@ -400,9 +400,31 @@ nav a:hover::after {
     font-size: 2rem;
     letter-spacing: 0.05em;
 }
+
+.dark-section {
+    padding:
+        120px
+        max(20px, calc((100% - 1100px) / 2));
+
+    background: var(--color-text);
+    color: var(--color-white);
+}
+
+.dark-section .section-title span {
+    color: var(--color-primary-dark);
+}
+
+.dark-section .section-title h2 {
+    color: var(--color-white);
+}
+
 /* =========================
    sentence
 ========================= */
+.sentence-section{
+    padding: 15px max(20px, calc((100% - 1100px) / 2));
+}
+
 
 .alice{
     align-items: center;
@@ -468,23 +490,6 @@ nav a:hover::after {
 /* =========================
    Skills
 ========================= */
-
-.dark-section {
-    padding:
-        120px
-        max(20px, calc((100% - 1100px) / 2));
-
-    background: var(--color-text);
-    color: var(--color-white);
-}
-
-.dark-section .section-title span {
-    color: var(--color-primary-dark);
-}
-
-.dark-section .section-title h2 {
-    color: var(--color-white);
-}
 
 .skill-grid {
     display: grid;
