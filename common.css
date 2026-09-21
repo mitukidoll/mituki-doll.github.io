@@ -25,6 +25,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -130,10 +131,10 @@ nav a:hover::after {
 
 /*ヘッダーのハンバーガー*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
 .nav {
     position: fixed;
-    right: -320px; /* 右から出てくる */
+    right: -100px; /* 右から出てくる */
     top: 0;
     width: 100px; /* スマホに収まるサイズ */
     height: 100vh;
@@ -760,7 +761,7 @@ nav a:hover::after {
 
     grid-template-columns:
         repeat(4, minmax(0, 1fr));
-        
+
 
     gap: 4px;
 }
