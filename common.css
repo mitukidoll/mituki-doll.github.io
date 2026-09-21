@@ -224,7 +224,7 @@ nav a:hover::after {
             135deg,
             var(--color-bg) 0%,
             var(--color-bg) 70%,
-            var(--color-primary-dark) 100%
+            var(--color-primary) 100%
         );
 }
 
@@ -400,7 +400,25 @@ nav a:hover::after {
     font-size: 2rem;
     letter-spacing: 0.05em;
 }
+/* =========================
+   sentence
+========================= */
 
+.alice{
+    align-items: center;
+}
+
+.alice h2{
+    text-align: center;
+    color: var(--color-gray);
+    font-style: italic;
+}
+
+.alice h3{
+    text-align: center;
+    color: var(--color-gray-light);
+    font-style: italic;
+}
 
 /* =========================
    About
