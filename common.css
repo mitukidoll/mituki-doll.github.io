@@ -87,26 +87,22 @@ body {
     color: var(--color-primary);
 }
 
-nav {
+.header nav {
     display: flex;
     gap: 25px;
 }
 
-nav a {
+.header nav a {
     position: relative;
-
     color: var(--color-gray);
-
     font-size: 0.75rem;
     font-weight: 700;
-
     letter-spacing: 0.12em;
     text-decoration: none;
-
     transition: color 0.2s;
 }
 
-nav a::after {
+header nav a::after {
     content: "";
 
     position: absolute;
@@ -121,11 +117,11 @@ nav a::after {
     transition: width 0.2s;
 }
 
-nav a:hover {
+header nav a:hover {
     color: var(--color-primary-dark);
 }
 
-nav a:hover::after {
+header nav a:hover::after {
     width: 100%;
 }
 
