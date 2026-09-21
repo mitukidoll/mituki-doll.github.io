@@ -786,7 +786,7 @@ nav a:hover::after {
 /* 10 */
 .gallery-10 {
     grid-column: span 1;
-    grid-row: span 3;
+    grid-row: span 2;
 }
 
 /* 11 */
