@@ -127,6 +127,62 @@ nav a:hover {
 nav a:hover::after {
     width: 100%;
 }
+
+/*ヘッダーのハンバーガー*/
+
+@media only screen and (max-width: 768px) {
+.nav {
+    position: fixed;
+    right: -320px; /* 右から出てくる */
+    top: 0;
+    width: 300px; /* スマホに収まるサイズ */
+    height: 100vh;
+    padding-top: 60px;
+    background-color: #fff;
+    transition: all .6s;
+    z-index: 200;
+    overflow-y: auto; 
+  }
+.hamburger {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    width: 40px; /* クリックしやすい幅 */
+    height: 40px; /* クリックしやすい高さ */
+    cursor: pointer;
+    z-index: 300;
+  }
+ .nav_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.nav_item {
+    text-align: center;
+    padding: 0 14px;
+  }
+
+.nav-open .nav {
+    right: 0;
+  }
+.nav-open .black_bg {
+    opacity: .8;
+    visibility: visible;
+  }
+.nav-open .hamburger_border_top {
+    transform: rotate(45deg);
+    top: 20px;
+  }
+.nav-open .hamburger_border_center {
+    width: 0;
+    left: 50%;
+  }
+.nav-open .hamburger_border_bottom {
+    transform: rotate(-45deg);
+    top: 20px;
+  }
+}
+
 /* =========================
    Gritch
 ========================= */
@@ -776,18 +832,20 @@ nav a:hover::after {
 
 .gallery-slideshow {
     position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .gallery-slide {
     position: absolute;
-
     inset: 0;
 
     width: 100%;
     height: 100%;
+    object-fit: cover;
 
     opacity: 0;
-
     transition: opacity 0.5s ease;
 }
 
