@@ -12,6 +12,7 @@
 
     --color-gray: #666;
     --color-gray-light: #999;
+    --color-gray-skylight: #bbb;
 
     --color-border: #ddd;
     --color-border-dark: #444;
@@ -549,7 +550,7 @@ nav a:hover::after {
 .hobby-item p {
     margin: 0 0 12px;
 
-    color: var(--color-gray-light);
+    color: var(--color-white);
 }
 
 
@@ -564,7 +565,7 @@ nav a:hover::after {
     align-items: center;
     gap: 8px;
 
-    color: var(--color-white);
+    color: var(--color-gray-skylight);
 
     font-size: 0.9rem;
     font-weight: 700;
@@ -617,7 +618,7 @@ nav a:hover::after {
 }
 
 .favorite-number {
-    color: var(--color-primary);
+    color: var(--color-gray-skylight);
     font-size: 0.75rem;
     font-weight: 800;
 }
@@ -672,7 +673,7 @@ nav a:hover::after {
     right: 0;
     bottom: 0;
 
-    min-height: 50%;
+    min-height: 30%;
     padding: 20px 25px;
 
     background: rgba(24, 24, 24, 0.9);
