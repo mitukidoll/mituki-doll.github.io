@@ -65,6 +65,10 @@ input:disabled {
     backdrop-filter: blur(3px);
 }
 
+.link{
+    color: red;
+}
+
 .dialog-header {
     display: flex;
     align-items: center;
