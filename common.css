@@ -162,11 +162,12 @@ header nav a:hover::after {
     cursor: pointer;
     z-index: 300;
   }
- .nav_list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+.nav_list {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
 .nav_item {
     text-align: center;
     padding: 0 14px;
@@ -529,6 +530,7 @@ header nav a:hover::after {
 ========================= */
 .sentence-section{
     padding: 15px max(20px, calc((100% - 1100px) / 2));
+    background-color: var(--color-gray);
 }
 
 
@@ -538,7 +540,7 @@ header nav a:hover::after {
 
 .alice h2{
     text-align: center;
-    color: var(--color-gray);
+    color: var(--color-gray-light);
     font-style: italic;
 }
 
