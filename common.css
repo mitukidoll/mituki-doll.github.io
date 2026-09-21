@@ -89,7 +89,6 @@ body {
 
 .header nav {
     display: flex;
-    gap: 25px;
 }
 
 .header nav a {
@@ -125,6 +124,17 @@ header nav a:hover::after {
     width: 100%;
 }
 
+.nav_list {
+    display: flex;
+    gap: 25px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hamburger {
+    display: none;
+}
 
 /*ヘッダーのハンバーガー*/
 
@@ -144,7 +154,7 @@ header nav a:hover::after {
   }
 .hamburger {
     position: absolute;
-    display: none;
+    display: block;
     right: 15px;
     top: 8px;
     width: 40px; /* クリックしやすい幅 */
