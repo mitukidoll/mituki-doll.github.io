@@ -529,7 +529,7 @@ header nav a:hover::after {
    sentence
 ========================= */
 .sentence-section{
-    padding: 15px max(20px, calc((100% - 1100px) / 2));
+    padding: 0px max(20px, calc((100% - 1100px) / 2));
     background-color: var(--color-gray);
 }
 
@@ -548,6 +548,8 @@ header nav a:hover::after {
     text-align: center;
     color: var(--color-gray-light);
     font-style: italic;
+    margin: 0;
+    padding: 0;
 }
 
 /* =========================
