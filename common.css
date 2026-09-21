@@ -135,7 +135,7 @@ nav a:hover::after {
     position: fixed;
     right: -320px; /* 右から出てくる */
     top: 0;
-    width: 300px; /* スマホに収まるサイズ */
+    width: 100px; /* スマホに収まるサイズ */
     height: 100vh;
     padding-top: 60px;
     background-color: #fff;
@@ -169,14 +169,14 @@ nav a:hover::after {
     color: #333;
   }
 .nav_item a:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-light);
   }
 .hamburger_border {
     position: absolute;
     left: 11px;
     width: 18px;
     height: 2px;
-    background-color: var(--color-bg);
+    background-color: var(--color-gray);
     transition: all .6s;
   }
 .hamburger_border_top {
@@ -766,6 +766,12 @@ nav a:hover::after {
     gap: 4px;
 }
 
+
+@media (max-width: 700px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
 
 /* =========================
    Gallery Item
