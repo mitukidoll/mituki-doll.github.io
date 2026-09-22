@@ -788,6 +788,7 @@ header nav a:hover::after {
 
     min-width: 0;
     min-height: 0;
+    max-height: 400px;
 
     overflow: hidden;
 
